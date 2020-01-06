@@ -1,0 +1,41 @@
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    body {
+        background-color:#E6B2B2 ;
+    }
+    /*------------------------------------------------------------------------------------------------ Nav */
+
+    nav {
+        background-color: darkgrey;
+    }
+    nav a {
+        background-color: darkgrey;
+        color: #fff;
+    }
+
+    /*------------------------------------------------------------------------------------------------ Price List */
+
+    .table .table-bordered {
+        border-color: black;
+    }
+
+    /*------------------------------------------------------------------------------------------------ footer */
+
+    footer {
+        margin-top: 50px;
+        background-color: darkgrey;
+        color: #fff;
+    }
