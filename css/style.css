@@ -1,17 +1,4 @@
-.map-container-6{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-
-.map-container-6 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
 
    .navbar-brand img {
        height:40px ;
@@ -35,6 +22,19 @@
     margin-left: 30px;
 }
 
+    /*------------------------------------------------------------------------------------------------ Special paddings/margins/text */
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .general-sub {
+        font-family: "Arimo", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+
 
     /*------------------------------------------------------------------------------------------------ Nav */
 
@@ -53,52 +53,43 @@
     }
 
     /*------------------------------------------------------------------------------------------------ footer */
-
-   .list-inline{
-       text-align: center;
-       width: 100%;
-      
-   }
-   h5.general-sub{
-    text-align: center;
-    width: 100%;
-   
-}
+  
     footer {
-        margin-top: 50px;
         background-color: darkgrey;
         color: #fff;
+        min-height: 200px;
+        margin-top: 50px;
     }
 
-   
-    
     .inline-block {
-        margin-bottom: 30px;
-        margin-right: 10px;
-        margin-left: 10px;
-        text-align: center;
-        width: 100%;
-    }
-
-    h5.general-sub {
-        font-size: 1.25rem;
-        margin-left: 30px;
-        margin-top: 20px;
-        letter-spacing: 3px;
+       display: inline-block;
     }
     
-    .fa-facebook-f:before, .fa-facebook:before {
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+   /* .fa-facebook-f:before, .fa-facebook:before {
     font-size: 30px ;
+    color: white;
    }
 
    .fa-instagram:before {
-    
     font-size: 30px;
    }
 
-   .uppercase {
-       text-transform: uppercase;
-   }
+   
 
   
    
