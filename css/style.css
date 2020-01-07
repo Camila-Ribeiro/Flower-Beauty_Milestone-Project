@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
 
-   .navbar-brand img {
-       height:40px ;
-   }
+    /*------------------------------------------------------------------------------------------------ Colors */
 
     body {
-        background-color:#E6B2B2 ;
+        font-family: "Arimo", sans-serif;
+        background-color:#E6B2B2;
     }
 
     /*------------------------------------------------------------------------------------------------ Utility */
-.mb-60 {
-    margin-bottom: 60px;
-}
-.mt-40 {
-    margin-top: 40px;
-}
-.mr-30 {
-    margin-right: 30px;
-}
-.ml-30 {
-    margin-left: 30px;
-}
+
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+    .mt-40 {
+        margin-top: 40px;
+    }
+    .mr-30 {
+        margin-right: 30px;
+    }
+    .ml-30 {
+        margin-left: 30px;
+    }
 
     /*------------------------------------------------------------------------------------------------ Special paddings/margins/text */
 
@@ -36,28 +36,81 @@
     }
 
 
-    /*------------------------------------------------------------------------------------------------ Nav */
-
+    /*------------------------------------------------------------------------------------------------ Navbar */
     nav {
-        background-color: darkgrey;
+        background-color: #a9a9a9;
     }
     nav a {
-        background-color: darkgrey;
+        background-color: #a9a9a9;
         color: #fff;
     }
 
-    /*------------------------------------------------------------------------------------------------ Price List */
+    .navbar-brand img {
+        height:40px ;
+    }
 
-    .table .table-bordered {
+    /*.navbar-toggler-icon{
+        background-color: #E6B2B2;
+    }*/
+
+
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color:transparent;
+        border: 2px solid #E6B2B2;
+        border-radius: .25rem;
+    }
+    /*------------------------------------------------------------------------------------------------ Button */
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid #E6B2B2;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s
+    }
+    
+    
+
+    /*------------------------------------------------------------------------------------------------ Cards */
+    h5.card-title {
+        font-family: 'Arimo', sans-serif;
+    }
+    p.card-text {
+        font-family: 'Arimo', sans-serif;
+    }
+
+    /*------------------------------------------------------------------------------------------------ Price List */
+    .table {
+        width: 100%;
+    }
+
+    /*.table .table-bordered {
         border-color: black;
     }
+    th td {
+        font-family: 'Arimo', sans-serif;
+    } */
 
     /*------------------------------------------------------------------------------------------------ footer */
   
     footer {
-        background-color: darkgrey;
+        background-color: #a9a9a9;
         color: #fff;
-        min-height: 200px;
+        min-height: 170px;
         margin-top: 50px;
     }
 
@@ -65,29 +118,32 @@
        display: inline-block;
     }
     
+    .social-links {
+        padding: 20px;
+    }
     .social-links li a i {
         width: 32px;
         height: 32px;
         padding: 12px 0;
         border-radius: 50%;
         font-size: 13px;
-        line-height: 7px;
+        line-height: 8px;
         text-align: center;
-        color: #fafafa;
-        background: #8f8f8f;
+        color: #fff;
+        background:#E6B2B2 ;
         transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
     }
-   /* .fa-facebook-f:before, .fa-facebook:before {
-    font-size: 30px ;
-    color: white;
-   }
 
-   .fa-instagram:before {
-    font-size: 30px;
-   }
+    .social-links li a i:hover {
+        background: #8f8f8f;
+    }
+
+    #footer-padding {
+        padding: 20px 0 20px 0;
+    }
 
    
 
