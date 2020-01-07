@@ -20,6 +20,22 @@
     body {
         background-color:#E6B2B2 ;
     }
+
+    /*------------------------------------------------------------------------------------------------ Utility */
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+
+
     /*------------------------------------------------------------------------------------------------ Nav */
 
     nav {
@@ -38,8 +54,51 @@
 
     /*------------------------------------------------------------------------------------------------ footer */
 
+   .list-inline{
+       text-align: center;
+       width: 100%;
+      
+   }
+   h5.general-sub{
+    text-align: center;
+    width: 100%;
+   
+}
     footer {
         margin-top: 50px;
         background-color: darkgrey;
         color: #fff;
     }
+
+   
+    
+    .inline-block {
+        margin-bottom: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    h5.general-sub {
+        font-size: 1.25rem;
+        margin-left: 30px;
+        margin-top: 20px;
+        letter-spacing: 3px;
+    }
+    
+    .fa-facebook-f:before, .fa-facebook:before {
+    font-size: 30px ;
+   }
+
+   .fa-instagram:before {
+    
+    font-size: 30px;
+   }
+
+   .uppercase {
+       text-transform: uppercase;
+   }
+
+  
+   
