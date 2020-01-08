@@ -192,7 +192,29 @@
         padding: 20px 0 20px 0;
     }
 
-   
+   /*------------------------------------------------------------------------------------------------ @Media Querie */
 
   
+   @media screen and (max-width: 576px) {
+    h5.general-sub {
+        padding-top: 10px;
+        padding-bottom: 3px;
+    }
+
+    ul.list-inline{
+        padding-top: 8px;
+    }
+
+    .social-links {
+        padding: 15px;
+    }
    
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .mb-30 {
+        margin-bottom: 0;
+    }
+   
+  }
