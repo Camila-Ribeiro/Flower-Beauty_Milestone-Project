@@ -9,8 +9,8 @@
 
     /*------------------------------------------------------------------------------------------------ Utility */
 
-    .mb-60 {
-        margin-bottom: 60px;
+    .mb-30 {
+        margin-bottom: 30px;
     }
     .mt-40 {
         margin-top: 40px;
@@ -36,10 +36,16 @@
     }
 
 
+    /*------------------------------------------------------------------------------------------------ Header */
+
+    header {
+        margin-bottom: 100px;
+    }
     /*------------------------------------------------------------------------------------------------ Navbar */
     nav {
         background-color: #a9a9a9;
     }
+
     nav a {
         background-color: #a9a9a9;
         color: #fff;
@@ -49,11 +55,6 @@
         height:40px ;
     }
 
-    /*.navbar-toggler-icon{
-        background-color: #E6B2B2;
-    }*/
-
-
     .navbar-toggler {
         padding: .25rem .75rem;
         font-size: 1.25rem;
@@ -62,6 +63,8 @@
         border: 2px solid #E6B2B2;
         border-radius: .25rem;
     }
+
+
     /*------------------------------------------------------------------------------------------------ Button */
     .btn {
         display: inline-block;
@@ -88,10 +91,53 @@
     /*------------------------------------------------------------------------------------------------ Cards */
     h5.card-title {
         font-family: 'Arimo', sans-serif;
+        padding-top: 10px;
     }
     p.card-text {
         font-family: 'Arimo', sans-serif;
     }
+
+    .bg-facial {
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/facial.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+    }
+    
+    .bg-body {
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/body.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .bg-nails {
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/nails.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .bg-lashes {
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/Lashes.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+   
 
     /*------------------------------------------------------------------------------------------------ Price List */
     .table {
@@ -105,8 +151,9 @@
         font-family: 'Arimo', sans-serif;
     } */
 
+
     /*------------------------------------------------------------------------------------------------ footer */
-  
+
     footer {
         background-color: #a9a9a9;
         color: #fff;
