@@ -1,220 +1,235 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arimo&display=swap");
 
-    /*------------------------------------------------------------------------------------------------ Colors */
+/*------------------------------------------------------------------------------------------------ Colors */
 
-    body {
-        font-family: "Arimo", sans-serif;
-        background-color:#E6B2B2;
-    }
+body {
+  font-family: "Arimo", sans-serif;
+  background-color: #e6b2b2;
+}
 
-    /*------------------------------------------------------------------------------------------------ Utility */
+/*------------------------------------------------------------------------------------------------ Utility */
 
-    .mb-30 {
-        margin-bottom: 30px;
-    }
-    .mt-40 {
-        margin-top: 40px;
-    }
-    .mr-30 {
-        margin-right: 30px;
-    }
-    .ml-30 {
-        margin-left: 30px;
-    }
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
 
-    /*------------------------------------------------------------------------------------------------ Special paddings/margins/text */
+/*------------------------------------------------------------------------------------------------ Special paddings/margins/text */
 
-    .uppercase {
-        text-transform: uppercase;
-    }
+.uppercase {
+  text-transform: uppercase;
+}
 
-    .general-sub {
-        font-family: "Arimo", sans-serif;
-        font-weight: 300;
-        color: #fff;
-        letter-spacing: 3px;
-    }
+.general-sub {
+  font-family: "Arimo", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 3px;
+}
 
+/*------------------------------------------------------------------------------------------------ Header */
 
-    /*------------------------------------------------------------------------------------------------ Header */
+header {
+  margin-bottom: 100px;
+}
+/*------------------------------------------------------------------------------------------------ Navbar */
+nav {
+  background-color: #a9a9a9;
+}
 
-    header {
-        margin-bottom: 100px;
-    }
-    /*------------------------------------------------------------------------------------------------ Navbar */
-    nav {
+/* nav a {
         background-color: #a9a9a9;
-    }
-
-    nav a {
-        background-color: #a9a9a9;
         color: #fff;
-    }
+    } */
 
-    .navbar-brand img {
-        height:40px ;
-    }
+.navbar-brand img {
+  height: 40px;
+}
 
-    .navbar-toggler {
-        padding: .25rem .75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color:transparent;
-        border: 2px solid #E6B2B2;
-        border-radius: .25rem;
-    }
+/*------------------------------------------------------------------------------------------------ Button */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid #e6b2b2;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+}
 
+/*------------------------------------------------------------------------------------------------ Cards */
+h5.card-title {
+  font-family: "Arimo", sans-serif;
+  padding-top: 10px;
+}
+p.card-text {
+  font-family: "Arimo", sans-serif;
+}
 
-    /*------------------------------------------------------------------------------------------------ Button */
-    .btn {
-        display: inline-block;
-        font-weight: 400;
-        color: #212529;
-        text-align: center;
-        vertical-align: middle;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        background-color: transparent;
-        border: 1px solid #E6B2B2;
-        padding: .375rem .75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        border-radius: .25rem;
-        transition: color .15s
-    }
-    
-    
+.bg-facial {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/facial.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
 
-    /*------------------------------------------------------------------------------------------------ Cards */
-    h5.card-title {
-        font-family: 'Arimo', sans-serif;
-        padding-top: 10px;
-    }
-    p.card-text {
-        font-family: 'Arimo', sans-serif;
-    }
+.bg-body {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/body.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
 
-    .bg-facial {
-        width: 100%;
-        height: 300px;
-        background-image: url(../images/facial.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-    }
-    
-    .bg-body {
-        width: 100%;
-        height: 300px;
-        background-image: url(../images/body.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-    }
+.bg-nails {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/nails.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
 
-    .bg-nails {
-        width: 100%;
-        height: 300px;
-        background-image: url(../images/nails.jpeg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-    }
+.bg-lashes {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/Lashes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
 
-    .bg-lashes {
-        width: 100%;
-        height: 300px;
-        background-image: url(../images/Lashes.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-    }
+/*------------------------------------------------------------------------------------------------ Price List */
+.table {
+  width: 100%;
+}
 
-   
-
-    /*------------------------------------------------------------------------------------------------ Price List */
-    .table {
-        width: 100%;
-    }
-
-    /*.table .table-bordered {
+/*.table .table-bordered {
         border-color: black;
     }
     th td {
         font-family: 'Arimo', sans-serif;
     } */
 
+/*------------------------------------------------------------------------------------------------ footer */
 
-    /*------------------------------------------------------------------------------------------------ footer */
+footer {
+  background-color: #a9a9a9;
+  color: #fff;
+  min-height: 170px;
+  margin-top: 50px;
+}
 
-    footer {
-        background-color: #a9a9a9;
-        color: #fff;
-        min-height: 170px;
-        margin-top: 50px;
-    }
+.inline-block {
+  display: inline-block;
+}
 
-    .inline-block {
-       display: inline-block;
-    }
-    
-    .social-links {
-        padding: 20px;
-    }
-    .social-links li a i {
-        width: 32px;
-        height: 32px;
-        padding: 12px 0;
-        border-radius: 50%;
-        font-size: 13px;
-        line-height: 8px;
-        text-align: center;
-        color: #fff;
-        background:#E6B2B2 ;
-        transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-    }
+.social-links {
+  padding: 20px;
+}
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 8px;
+  text-align: center;
+  color: #fff;
+  background: #e6b2b2;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
 
-    .social-links li a i:hover {
-        background: #8f8f8f;
-    }
+.social-links li a i:hover {
+  background: #8f8f8f;
+}
 
-    #footer-padding {
-        padding: 20px 0 20px 0;
-    }
+#footer-padding {
+  padding: 20px 0 20px 0;
+}
 
-   /*------------------------------------------------------------------------------------------------ @Media Querie */
+/* ------------------------------------------------------------------------------------- overwrite hover.css  */
 
+.hvr-fade:active,
+.hvr-fade:focus,
+.hvr-fade:hover {
+  background-color: #e6b2b2;
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------- overwrite Bootstrap  */
+
+.navbar-toggler {
+  /* padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
   
-   @media screen and (max-width: 576px) {
-    h5.general-sub {
-        padding-top: 10px;
-        padding-bottom: 3px;
-    }
+  border-radius: 0.25rem; */
+  border: 2px solid #e6b2b2;
+}
 
-    ul.list-inline{
-        padding-top: 8px;
-    }
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
 
-    .social-links {
-        padding: 15px;
-    }
-   
-    .card {
-        margin-bottom: 20px;
-    }
+.navbar-nav {
+    text-transform: uppercase;
+}
 
-    .mb-30 {
-        margin-bottom: 0;
-    }
-   
+/*------------------------------------------------------------------------------------------------ @Media Queries */
+
+@media screen and (max-width: 576px) {
+  h5.general-sub {
+    padding-top: 10px;
+    padding-bottom: 3px;
   }
+
+  ul.list-inline {
+    padding-top: 8px;
+  }
+
+  .social-links {
+    padding: 15px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .mb-30 {
+    margin-bottom: 0;
+  }
+}
