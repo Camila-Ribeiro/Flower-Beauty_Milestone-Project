@@ -9,15 +9,34 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&display=swap'">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Home Page</title>
   </head>
 
   <body>
-    <header>
+   
+    <header class="fixed-top">
+        
       <!-- Nav-->
-      <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+      <div >
+      <ul class="list-inline social-links-mobile d-block d-lg-none">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span
+          </li>
+        </ul>
+      </div>
+
+      <nav class="navbar navbar-light navbar-expand-sm">
         <a class="navbar-brand" href="index.html">
           <img src="images/logoNoback.png" />
         </a>
@@ -41,7 +60,7 @@
               <li class="nav-item mr-2">
                 <a class="nav-link" href="about.html">About </a>
               </li>
-
+            
               <li class="nav-item dropdown mr-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -59,6 +78,7 @@
                   <a class="dropdown-item" href="lashes.html">Lashes</a>
                 </div>
               </li>
+            
 
               <li class="nav-item mr-2">
                 <a class="nav-link" href="pricelist.html">Price List</a>
@@ -74,30 +94,51 @@
     </header>
 
     <!--Content-->
-    <div class="container mb-30">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="bg-facial"></div>
-                <h5 class="card-title">Facial Treatments</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="facial.html" class="btn btn-color hvr-fade">Read more</a>
-            </div>
-          </div>
+    <section class="content-home">
+    <div class="social-links d-none d-lg-block">
+        <div class="facebook-link">
+          <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+          </a>
         </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-                <div class="bg-body"></div>
-                <h5 class="card-title">Body Treatments</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="body.html" class="btn btn-color hvr-fade">Read more</a>
-            </div>
-          </div>
+  
+        <div class="insta-link">
+          <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+          </a>
         </div>
       </div>
-    </div>  
+             
+       
+        
+    
+
+    <div class="container mb-30">
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <div class="bg-facial"></div>
+              <h5 class="card-title">Facial Treatments</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional contentWith supporting text below as a natural lead-in to additional content </p>
+            <a href="facial.html" class="btn btn-color hvr-fade">Read more</a>
+          </div>
+        </div><!-- /.card -->
+
+
+      <div class="card">
+        <div class="card-body">
+            <div class="bg-body"></div>
+            <h5 class="card-title">Body Treatments</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="body.html" class="btn btn-color hvr-fade">Read more</a>
+        </div>
+      </div><!-- /.card -->
+    </div><!-- /.card-deck -->
+  </div><!-- /.container -->
+
+
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -120,51 +161,19 @@
                   </div>
                 </div>
               </div>
-        </div>
-    </div>
-        
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+   
+    </section>
    
     <!--Footer-->
     <footer>
-      <div class="container-fluid">
-        <div id="footer-padding"  class="row">
-          <div class="col-sm-4">
-            <h5 class="uppercase general-sub">Get In touch</h5>
-            <p class="inline-block">
-                <a href="https://api.whatsapp.com/send?phone=353877695101">Send Message</a><!-- + 353 87 7695101<br> --><br>
-              71 Middle Abbey St<br>
-              North City<br>
-              Dublin D01 E7K5
-            </p>
-          </div>
-          <div class="col-sm-4">
-              <h5 class="uppercase general-sub">Opening Hours</h5>
-              <p class="inline-block">
-                Sun-Mon CLOSED <br>
-                Tue-Fri 9am - 8pm <br>
-                Saturday 9am - 7pm <br>
-              </p>
-          </div>
-          <div class="col-sm-4">
-              <h5 class="uppercase general-sub">Social Media</h5>
-              <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                  </a>
-                </li>
+      
 
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                  </<!-->
-                </li>
-              </ul>
-          </div>
-        </div>
-      </div>
+          <h6 class="copyright">©copyright</h6>
+         
+             
+         
     </footer>
     <!--JavaScript-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
