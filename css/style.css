@@ -75,6 +75,74 @@ nav {
   transition: color 0.15s;
 }
 
+
+/*------------------------------------------------------------------------------------------------ Slides */
+.carousel {
+  width: 100%;
+  height: 450px;
+}
+
+.slide-1 {
+  height: 450px;
+  background-image: url(../images/facial.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+}
+
+.slide-2 {
+  height: 450px;
+  background-image: url(../images/body.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-3 {
+  height: 450px;
+  background-image: url(../images/feet-nails.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-4 {
+  height: 450px;
+  background-image: url(../images/Lashes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-5 {
+  height: 450px;
+  background-image: url(../images/waxing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about{
+  background-color: rgba(0, 0, 0, 0.2) ;
+  padding: 20px 0;
+}
+
+.about-text {
+  margin: 50px 50px;
+  
+}
+
+.p-text {
+  text-align: justify;
+}
+
+.title-padding {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*------------------------------------------------------------------------------------------------ Cards */
 h5.card-title {
   font-family: "Arimo", sans-serif;
@@ -293,9 +361,10 @@ h6,copyright {
     padding-top: 8px;
   }
 
-  /* .social-links {
-    display: none;
-  } */
+
+  .social-links-mobile  {
+    right: 0;
+  }
 
   .card {
     margin-bottom: 20px;
