@@ -51,7 +51,7 @@ nav {
 }
 
 .content-home {
-  margin-top: 120px;
+  margin: 100px 0;
 }
 
 /*------------------------------------------------------------------------------------------------ Button */
@@ -102,23 +102,25 @@ nav {
 
 .slide-2 {
   height: 450px;
-  background-image: url(../images/body.jpg);
+  background-image: url(../images/body-measure.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .slide-3 {
-  height: 450px;
+  /* height: 450px; */
   background-image: url(../images/red-and-white-manicure-with-love-print-887352.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: -100px auto 0 auto;
 }
+
 
 .slide-4 {
   height: 450px;
-  background-image: url(../images/Lashes.jpg);
+  background-image: url(../images/lashes-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,18 +134,13 @@ nav {
   background-repeat: no-repeat;
 }
 
-.about{
+.about-wrap {
   background-color: rgba(0, 0, 0, 0.2) ;
-  padding: 20px 0;
+  padding: 60px 0;
 }
-
-/* .about-text {
-  margin: 50px 50px; */
-  
-}
-
-.p-text {
+.about {
   text-align: justify;
+  margin: 0 100px;
 }
 
 .title-padding {
@@ -164,7 +161,7 @@ p.card-text {
 .bg-facial {
   width: 100%;
   height: 300px;
-  background-image: url(../images/facial.jpg);
+  background-image: url(../images/facial-icon.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,7 +172,7 @@ p.card-text {
 .bg-body {
   width: 100%;
   height: 300px;
-  background-image: url(../images/body.jpg);
+  background-image: url(../images/body-icon.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,24 +183,35 @@ p.card-text {
 .bg-nails {
   width: 100%;
   height: 300px;
-  background-image: url(../images/nails.jpeg);
+  background-image: url(../images/nail-icon.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 
 .bg-lashes {
   width: 100%;
   height: 300px;
-  background-image: url(../images/Lashes.jpg);
+  background-image: url(../images/lashes-icon.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.bg-waxing {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/waxing-icon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .card {
