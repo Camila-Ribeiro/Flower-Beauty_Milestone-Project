@@ -83,16 +83,16 @@ nav {
 
 .carousel {
   width: 100%;
-  height: 450px;
+  height: 600px;
   overflow: hidden;
 }
 
 .carousel-item {
-  height: 450px;
+  height: 600px;
 }
 
 .slide-1 {
-  height: 450px;
+  height: 600px;
   background-image: url(../images/facial.jpg);
   background-size: cover;
   background-position: center;
@@ -101,7 +101,7 @@ nav {
 }
 
 .slide-2 {
-  height: 450px;
+  height: 600px;
   background-image: url(../images/body-measure.jpg);
   background-size: cover;
   background-position: center;
@@ -109,17 +109,17 @@ nav {
 }
 
 .slide-3 {
-  /* height: 450px; */
-  background-image: url(../images/red-and-white-manicure-with-love-print-887352.jpg);
+  height: 600px;
+  background-image: url(../images/nails-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: -100px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 
 .slide-4 {
-  height: 450px;
+  height: 600px;
   background-image: url(../images/lashes-1.jpg);
   background-size: cover;
   background-position: center;
@@ -127,8 +127,8 @@ nav {
 }
 
 .slide-5 {
-  height: 450px;
-  background-image: url(../images/waxing.jpg);
+  height: 600px;
+  background-image: url(../images/Depilacao.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,13 +149,28 @@ nav {
   text-align: center;
 }
 
+/*------------------------------------------------------------------------------------------------ Content-Home */
+
+img.card-img-top {
+  height: 400px;
+  margin: 0 0 -70px 0;
+}
+
+.card-group {
+  margin: 100px 40px 0 40px;
+}
 /*------------------------------------------------------------------------------------------------ Cards */
 h5.card-title {
   font-family: "Arimo", sans-serif;
   padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #3e2723;
 }
 p.card-text {
   font-family: "Arimo", sans-serif;
+  text-align: center;
+  color: #3e2723;
 }
 
 .bg-facial {
@@ -214,10 +229,23 @@ p.card-text {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
+
+
+
 /*------------------------------------------------------------------------------------------------ About */
+.team-section {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 60px 0;
+}
+
+.team-text {
+  text-align: justify;
+  margin: 0 100px;
+}
+
 .team-pics {
   padding-top: 50px;
 
@@ -265,13 +293,19 @@ p.card-text {
   background-color: #F6EFF5;
 }
 
+.facial-price {
+  height: 200px;
+  width: 200px;
+}
 #name-service {
   width: 480px;
   float:left; 
+  text-align: center;
 }
 
 #price {
   overflow: hidden; 
+  text-align: left;
 }
 
 /*------------------------------------------------------------------------------------------------ Social Links */
