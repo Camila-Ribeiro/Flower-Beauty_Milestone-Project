@@ -151,14 +151,17 @@ nav {
 
 /*------------------------------------------------------------------------------------------------ Content-Home */
 
-img.card-img-top {
-  height: 400px;
-  margin: 0 0 -70px 0;
-}
-
-.card-group {
+.beauty-icons-wrap {
   margin: 100px 40px 0 40px;
 }
+
+.beauty-icons-wrap .card-group img{
+  height: 400px;
+}
+
+/* .card-group {
+  margin: 100px 40px 0 40px;
+} */
 /*------------------------------------------------------------------------------------------------ Cards */
 h5.card-title {
   font-family: "Arimo", sans-serif;
@@ -167,10 +170,18 @@ h5.card-title {
   font-weight: bold;
   color: #3e2723;
 }
-p.card-text {
+/* p.card-text {
   font-family: "Arimo", sans-serif;
-  text-align: center;
+} */
+
+.card-deck-custom p.card-text {
   color: #3e2723;
+}
+
+.card-deck-custom .card {
+border: none;
+background-color: #ffebee;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bg-facial {
@@ -251,37 +262,45 @@ p.card-text {
 
 }
 
+.team-pics img{
+  width: 150px;
+}
+
+.team-pics h6 {
+  margin: 8px 10px;
+  text-align: center;
+}
+
+/* 
 .bg-priscila {
-  width: 100%;
-  height: 250px;
-  background: url(../images/Priscila.jpg) no-repeat center ;
+  width: 150px;
+  background: url(../images/portrait-1.jpeg) no-repeat center ;
   background-size: cover;
   display: block;
 }
 
 .bg-mara {
-  width: 100%;
-  height: 250px;
-  background: url(../images/mara.jpg) no-repeat center ;
+  width: 150px;
+  background: url(../images/portrait-2.jpeg) no-repeat center ;
   background-size: cover;
   display: block;
 }
 
 .bg-kenubia {
-  width: 100%;
-  height: 250px;
-  background: url(../images/mara.jpg) no-repeat center ;
+  width: 150px;
+  background: url(../images/portrait-3.jpeg) no-repeat center ;
   background-size: cover;
   display: block;
 }
 
 .bg-ariane {
-  width: 100%;
-  height: 250px;
-  background: url(../images/mara.jpg) no-repeat center ;
+  width: 150px;
+  background: url(../images/portrait-4.jpeg) no-repeat center ;
   background-size: cover;
   display: block;
-}
+} */
+
+.facial-page
 
 
 /*------------------------------------------------------------------------------------------------ Price List */
@@ -369,6 +388,42 @@ h6,copyright {
 .hvr-fade:hover {
   background-color: #e6b2b2;
   color: #fff;
+}
+
+.overlay {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 195px;
+  width: 130px;
+  opacity: 0;
+  transition: all .5s ease;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.hover-overlay {
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+  display: block;
+}
+.hover-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text-overlay {
+  color: #3e2723;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* ------------------------------------------------------------------------------------- overwrite Bootstrap  */
