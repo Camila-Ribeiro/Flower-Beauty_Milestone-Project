@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Home Page</title>
   </head>
-<body>
+  <body>
     <header>
         <!-- Nav-->
         <nav class="navbar navbar-light navbar-expand-sm fixed-top">
@@ -32,7 +32,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-  
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-2">
@@ -41,25 +41,22 @@
                 <li class="nav-item mr-2">
                   <a class="nav-link" href="about.html">About </a>
                 </li>
-  
+
+                <div class="hover-services">
                 <li class="nav-item dropdown mr-2">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >Services</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Services</a>
+                
+                  <div class="drop-hover dropdown-menu" aria-labelledby="navbarDropdownMenu">
                     <a class="dropdown-item" href="facial.html">Facial</a>
                     <a class="dropdown-item" href="body.html">Body</a>
                     <a class="dropdown-item" href="nails.html">Nails</a>
                     <a class="dropdown-item" href="lashes.html">Lashes</a>
+                    <a class="dropdown-item" href="waxing.html">Waxing</a>
                   </div>
                 </li>
-  
+              </div>
+
                 <li class="nav-item mr-2">
                   <a class="nav-link" href="pricelist.html">Price List</a>
                 </li>
@@ -71,122 +68,118 @@
             </div>
           </div>
         </nav>
-      </header>
-         
-            <!--Form with header-->
-          <section>
-            <div class="container-fluid">
-              <div class="row bg-color-contact">
-                <div class="col-md-5">
-                  <div class="card mt-40 ml-30 mr-30 mb-60">
-                    <div class="card-body">
-                            <h3 class="contact-heading uppercase text-center">Contact Us</h3>
-                            <h5 class="uppercase text-center">We are happy to help you!</h5>
-                    <div class="center-form">
-                    <form>
+    </header>
+        
+    <!--Form Contact Us-->
+    <section class="contact-us">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-contact">
+            <div class="card-body">
+                <h3 class="contact-heading uppercase text-center">Contact Us</h3>
+                <h6 class="uppercase text-center">We are happy to help you!</h6>
+                <div class="center-form">
+                    <form cla>
                       <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                       <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" 
                           required />
                       <textarea rows="5" name="Message" id="projectsummary" class="form-control" 
-                          placeholder="Message" required></textarea>
-
+                        placeholder="Message" required></textarea>
+  
                       <div class="form-row text-center">
                         <div class="col">
-                              <button type="submit" class="btn btn-secondary">Submit</button>
+                            <button type="submit" class="btn btn-color hvr-fade">Submit</button>
                         </div>
                       </div>
                     </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-          
-            <div class="row">
-                <div class="col-md-4">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.726535131297!2d-6.262924484578207!3d53.3481512799794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670facfffeac0b%3A0x1ffb3dcbba16a0c3!2sFlower%20Beauty!5e0!3m2!1sen!2sie!4v1578363937095!5m2!1sen!2sie" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-              </div>
-          </section>
-           
-          <section>
-          <div class="container">
-            <div class="row text-center">
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
-                <p>
-                    71 Middle Abbey St<br>
-                    North City<br>
-                    Dublin D01 E7K5
-                  </p>
-              </div>
-      
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"><i class="fa fa-whatsapp-square"></i></a>
-                <p>+ 353 87 7695101</p>
-              </div>
-
-              
-      
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
-                <p>info@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      
-         <!--Footer-->
-    <footer>
-        <div class="container-fluid">
-          <div id="footer-padding"  class="row">
-            <div class="col-sm-4">
-              <h5 class="uppercase general-sub">Get In touch</h5>
-              <p class="inline-block">
-                + 353 87 7695101<br>
-                71 Middle Abbey St<br>
-                North City<br>
-                Dublin D01 E7K5
-              </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Opening Hours</h5>
-                <p class="inline-block">
-                  Sun-Mon CLOSED <br>
-                  Tue-Fri 9am - 8pm <br>
-                  Saturday 9am - 7pm <br>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social Media</h5>
-                <ul class="list-inline social-links">
-                  <li class="list-inline-item">
-                    <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                    </a>
-                  </li>
-  
-                  <li class="list-inline-item">
-                    <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                    </a>
-                  </li>
-                </ul>
+                  </div> <!-- /.center-form> -->
+            </div> <!-- /.card-body> -->
+          </div> <!-- /.card> -->
+        </div> <!-- /.col -->
+        <div class="col-sm-8">
+          <div class="card card-map border-0">
+            <div class="card-body-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.726535131297!2d-6.262924484578207!3d53.3481512799794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670facfffeac0b%3A0x1ffb3dcbba16a0c3!2sFlower%20Beauty!5e0!3m2!1sen!2sie!4v1578363937095!5m2!1sen!2sie" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
           </div>
         </div>
-      </footer>
-      <!--JavaScript-->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      </div>
+    </section>
+
+    <!--Extra Info-->      
+    <section>
+      <div class="container-info">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
+            <h5 class="uppercase general-sub">Address</h5>
+            
+            <address>
+              71 Middle Abbey St<br>
+              North City<br>
+              Dublin D01 E7K5
+            </address>
+                
+              
+          </div>
+  
+          <div class="col-md-4">
+            <a class="btn-floating blue accent-1"><i class="fa fa-whatsapp-square"></i></a>
+            <a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
+            <h5 class="uppercase general-sub">get in touch</h5>
+            <p>+ 353 87 7695101<br>
+            info@gmail.com
+          </div>
+
+          <div class="col-md-4 ">
+              <a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
+              <h5 class="uppercase general-sub">Opening Hours</h5>
+              <p class="inline-block">
+                Sun-Mon CLOSED <br>
+                Tue-Fri 9am - 8pm <br>
+                Saturday 9am - 7pm <br>
+              </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!--Social Links Large Screen-->
+    <div class="social-links d-none d-lg-block">
+        <div class="facebook-link">
+          <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+          </a>
+        </div>
+  
+        <div class="insta-link">
+          <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+          </a>
+        </div>
+    </div><!-- /.social-links d-none d-lg-block -->
+
+    <!--Footer-->
+    <footer>
       
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-  </html>
+
+        <h6 class="copyright">©copyright</h6>
+       
+           
+       
+    </footer>
+
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
   
