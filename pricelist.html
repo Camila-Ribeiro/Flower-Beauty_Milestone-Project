@@ -15,68 +15,88 @@
     <title>Home Page</title>
   </head>
   <body>
-    <header>
-      <!-- Nav-->
-      <nav class="navbar navbar-light navbar-expand-sm fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logoNoback.png" />
-        </a>
-        <button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2">
-                  <a class="nav-link" href="index.html">Home </a>
-                </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="about.html">About </a>
-              </li>
-
-              <div class="hover-services">
-                  <li class="nav-item dropdown mr-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >Services</a>
-                  
-                    <div class="drop-hover dropdown-menu" aria-labelledby="navbarDropdownMenu">
-                      <a class="dropdown-item" href="facial.html">Facial</a>
-                      <a class="dropdown-item" href="body.html">Body</a>
-                      <a class="dropdown-item" href="nails.html">Nails</a>
-                      <a class="dropdown-item" href="lashes.html">Lashes</a>
-                      <a class="dropdown-item" href="waxing.html">Waxing</a>
-                    </div>
-                  </li>
-                </div>
+    <!-- Header--> 
+    <header class="fixed-top">
+        <!-- Social Links Responsive-->
+        <div class="container-social-mobile">
+        <ul class="list-inline social-links-mobile d-block d-lg-none">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+              </a>
+            </li>
   
-
-              <li class="nav-item active mr-2">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span class="sr-only">Instagram</span
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Nav-->
+        <nav class="navbar navbar-light navbar-expand-sm">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logoNoback.png" />
+          </a>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item  mr-2">
+                    <a class="nav-link" href="index.html">Home </a>
+                  </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="about.html">About </a>
+                </li>
+              
+                <div class="hover-services">
+                    <li class="nav-item dropdown mr-2">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >Services</a>
+                    
+                      <div class="drop-hover dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                        <a class="dropdown-item" href="facial.html">Facial</a>
+                        <a class="dropdown-item" href="body.html">Body</a>
+                        <a class="dropdown-item" href="nails.html">Nails</a>
+                        <a class="dropdown-item" href="lashes.html">Lashes</a>
+                        <a class="dropdown-item" href="waxing.html">Waxing</a>
+                      </div>
+                    </li>
+                  </div>
+    
+              
+  
+                <li class="nav-item active mr-2">
                   <a class="nav-link" href="pricelist.html">Price List</a>
                 </li>
               
                 <li class="nav-item mr-2">
                   <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
     <!-- Facial Treatments-->
-    <div class="container-services">
-          <h1>Facial Treatments</h1>
+    <div class="intro-section">
+          <h1 class="text-center">Facial Treatments</h1>
         <section class="container-price-list">
         <div class="card-deck mb-30">
         <div class="card" style="width: 18rem;"> 
@@ -172,7 +192,7 @@
 
     <!-- Body Treatments-->
     <div class="container-services">
-        <h1>Body Treatments</h1>
+        <h1 class="text-center">Body Treatments</h1>
       <section class="container-price-list">
       <div class="card-deck mb-30">
       <div class="card" style="width: 18rem;"> 
@@ -258,7 +278,7 @@
 
     <!-- Nails-->
     <div class="container-services">
-        <h1>Nails</h1>
+        <h1 class="text-center">Nails</h1>
       <section class="container-price-list">
       <div class="card-deck mb-30">
       <div class="card" style="width: 18rem;"> 
@@ -292,7 +312,7 @@
 
     <!-- Eyebrows/Eyelashes-->
     <div class="container-services">
-        <h1>Eyelashes / Eyebrows</h1>
+        <h1 class="text-center">Eyelashes / Eyebrows</h1>
       <section class="container-price-list">
      <div class="card-deck mb-30"> 
        
@@ -342,7 +362,7 @@
 
     <!-- Waxing-->
     <div class="container-services">
-        <h1>Waxing</h1>
+        <h1 class="text-center">Waxing</h1>
       <section class="container-price-list">
         <div class="card-deck mb-30">
         <div class="card" style="width: 18rem;"> 
