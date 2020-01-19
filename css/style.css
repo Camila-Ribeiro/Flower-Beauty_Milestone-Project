@@ -3,6 +3,7 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  
 }
 
 body {
@@ -98,7 +99,7 @@ nav {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+  
 }
 
 .slide-2 {
@@ -163,15 +164,11 @@ nav {
 
 /*------------------------------------------------------------------------------------------------ Cards */
 h5.card-title {
-  /* font-family: "Arimo", sans-serif; */
   padding-top: 10px;
   text-align: center;
   font-weight: bold;
   color: #3e2723;
 }
-/* p.card-text {
-  font-family: "Arimo", sans-serif;
-} */
 
 .card-deck-custom p.card-text {
   color: #3e2723;
@@ -181,7 +178,6 @@ h5.card-title {
   border: none;
   background-color: #ffebee;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* left: 375px; */
 }
 
 .bg-facial {
@@ -192,7 +188,6 @@ h5.card-title {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .bg-body {
@@ -203,7 +198,6 @@ h5.card-title {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .bg-nails {
@@ -214,7 +208,6 @@ h5.card-title {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .bg-lashes {
@@ -225,7 +218,6 @@ h5.card-title {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .bg-waxing {
@@ -236,7 +228,6 @@ h5.card-title {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 /*------------------------------------------------------------------------------------------------ About */
@@ -257,7 +248,6 @@ h5.card-title {
 
 .team-text p{
   text-align: justify;
-  /* margin: 0 100px; */
 }
 
 .team-pics {
@@ -273,43 +263,6 @@ h5.card-title {
   text-align: center;
 }
 
-/* 
-.bg-priscila {
-  width: 150px;
-  background: url(../images/portrait-1.jpeg) no-repeat center ;
-  background-size: cover;
-  display: block;
-}
-
-.bg-mara {
-  width: 150px;
-  background: url(../images/portrait-2.jpeg) no-repeat center ;
-  background-size: cover;
-  display: block;
-}
-
-.bg-kenubia {
-  width: 150px;
-  background: url(../images/portrait-3.jpeg) no-repeat center ;
-  background-size: cover;
-  display: block;
-}
-
-.bg-ariane {
-  width: 150px;
-  background: url(../images/portrait-4.jpeg) no-repeat center ;
-  background-size: cover;
-  display: block;
-} */
-
-/*------------------------------------------------------------------------------------------------ Services */
-/* .container-treatments {
-  margin: 100px 40px 40px 40px;
-}
-
-.container-treatments h1 {
-  margin-bottom: 20px;
-} */
 
 /*------------------------------------------------------------------------------------------------ Price List */
 .wrapper {
@@ -340,57 +293,34 @@ h5.card-title {
 }
 
 .container-price-list {
-  margin-right: 50px;
-  margin-left: 50px;
   margin-bottom: 70px;
 }
 
 /*------------------------------------------------------------------------------------------------ Contact Us */
-/* .container-map {
-  width: 100%;
- 
-} */
-
 .map{
   height: 300px;
 }
-
-/* .map .btn {
-  margin: 0 auto;
-  display: block;
-} */
 
 .contact-form {
   margin: 60px auto 40px auto;
   display: block;
 }
 
+.contact-form .btn{
+  width: 100%;
+}
+
 .contact-form h4{
   margin-bottom: 20px;
 }
 
-/* .contact-form .center-form {
-  margin: 0 auto;
-  display: block;
-} */
-
-/* .contact-us {
-  margin: 120px 50px 60px 50px;
-} */
-
-/* .contact-us h2 {
-  margin: 120px 20px 20px 20px;
-} */
-
-
- .container-info i.pink{
+.container-info i.pink{
   font-size: 40px;
-    margin-bottom: 20px;
-    color: #e9bbbb;
+  margin-bottom: 20px;
+  color: #e9bbbb;
 } 
 
 .container-info h5 {
-  /* margin: 10px 0 20px 0; */
   color: #e6b2b2;
 }
 
@@ -534,17 +464,13 @@ copyright {
 
 /* ------------------------------------------------------------------------------------- overwrite Bootstrap  */
 .navbar-toggler {
-  /* padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border-radius: 0.25rem; */
   border: 2px solid #e6b2b2;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #3e2723;
 }
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
@@ -572,29 +498,33 @@ copyright {
   border: none;
   border-radius: 0;
 }
-/*------------------------------------------------------------------------------------------------ @Media Queries */
 
-@media screen and (max-width: 991px) {
+
+/*------------------------------------------------------------------------------------------------ @Media Queries */
+/* Tablet */
+@media only screen and (min-width:600px) and (max-width:960px) {
+
+}
+/* Max col-md (tablet) */
+@media screen and (max-width: 960px) {
+
   .social-links-mobile {
     background-color: #ffcdd2;
     margin: 0;
     position: absolute;
     right: 40px;
   }
-}
-
-@media screen and (max-width: 576px) {
-  h5.general-sub {
-    padding-top: 10px;
-    padding-bottom: 3px;
-  }
 
   .container-social-mobile {
-    height: 37px;
+    height: 40px;
     background-color: #ffcdd2;
     position: relative;
+    padding-top: 4px;
   }
 
+  .intro-section {
+    padding-top: 120px;
+  }
 
   /** social media */
   .social-links-mobile a i {
@@ -617,38 +547,67 @@ copyright {
     background: #8f8f8f;
   }
 
-  /* .social-links-mobile {
+  .social-links-mobile {
     right: 5px;
-  } */
+  }
+
+ 
+}
 
 
+/* Mobile */
+@media screen and (max-width: 576px) {
+  /** slides*/
+  .carousel, .carousel-item {
+    height: 370px;
+  }
 
-  /* .card {
-    margin-bottom: 20px;
-  } */
+  .slide-1 {
+    height: 370px;
+    background-position: bottom center;
+  }
+  
+  .slide-2 {
+    height: 370px;
+    background-position: 47% 50%;
+  }
+  
+  .slide-3 {
+    height: 370px;
+    background-position: 69%;
+  }
+  
+  .slide-4 {
+    height: 370px;
+    background-position: 50%;
+  }
+  
+  .slide-5 {
+    height: 370px;
+    background-position: 69%;
+  }
+
+  h5.general-sub {
+    padding-top: 10px;
+    padding-bottom: 3px;
+  }
 
   .card-deck .card {
     margin-bottom: 50px;
-}
+  }
 
-  /* .about {
-    margin: 0 60px;
-  } */
 
   /*about page*/
-  
-  .intro-section {
-    padding-top: 120px;
-  }
   .team-pics p {
     text-align: center;
     margin: 15px 20px 70px 20px;
   }
 
- /*contact page*/
+  /*contact page*/
   .get-in-touch,
   .address,
   .opening-hours {
     margin-bottom: 3rem;
   }
+  
 }
