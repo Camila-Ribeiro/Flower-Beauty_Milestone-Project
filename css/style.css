@@ -69,7 +69,8 @@ nav {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s;
-  width: 230px;
+  width: 200px;
+  letter-spacing: 1px;
 }
 
 /*------------------------------------------------------------------------------------------------ Slides */
@@ -152,6 +153,11 @@ nav {
 
 .beauty-icons-wrap .card-group img {
   height: auto;
+}
+
+.card-body .btn {
+  margin: 0 auto;
+  display: block;
 }
 
 /*------------------------------------------------------------------------------------------------ Cards */
