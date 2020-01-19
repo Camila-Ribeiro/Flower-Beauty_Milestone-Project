@@ -594,6 +594,7 @@ copyright {
 
   .card-deck .card {
     margin-bottom: 50px;
+    left: 30px;
   }
 
 
@@ -609,5 +610,5 @@ copyright {
   .opening-hours {
     margin-bottom: 3rem;
   }
-  
+
 }
