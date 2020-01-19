@@ -69,6 +69,7 @@ nav {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s;
+  width: 230px;
 }
 
 /*------------------------------------------------------------------------------------------------ Slides */
@@ -146,7 +147,7 @@ nav {
 /*------------------------------------------------------------------------------------------------ Content-Home */
 
 .beauty-icons-wrap {
-  margin: 100px 40px 0 40px;
+  margin: 100px 45px 0 45px;
 }
 
 .beauty-icons-wrap .card-group img {
@@ -523,9 +524,7 @@ copyright {
 
 .carousel-caption {
   position: absolute;
-  /* right: 15%; */
   bottom: 20px;
-  left: 5%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -548,10 +547,6 @@ copyright {
     padding-top: 10px;
     padding-bottom: 3px;
   }
-
-  /* ul.list-inline {
-    padding-top: 8px;
-  } */
 
   .container-social-mobile {
     height: 34px;
