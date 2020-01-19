@@ -157,7 +157,7 @@ nav {
   height: auto;
 }
 
-.card-body .btn {
+.map .btn {
   margin: 0 auto;
   display: block;
 }
@@ -341,21 +341,18 @@ h5.card-title {
 }
 
 /*------------------------------------------------------------------------------------------------ Contact Us */
-.card-contact {
+.container-map {
+  width: 100%;
+  height: 600px;
+}
+
+.map iframe {
   width: 100%;
   height: 500px;
 }
 
-.card-body-map iframe {
-  width: 100%;
-  height: 500px;
-}
-
-.card .card-body {
-  margin: 40px auto;
-  display: block;
-  width: 600px;
-  height: 200px;
+.contact-form {
+  margin: 40px auto 60px auto;
 }
 
 /* .contact-us {
@@ -366,9 +363,9 @@ h5.card-title {
   margin: 120px 20px 20px 20px;
 }
 
-.contact-us .card {
+/* .contact-us .card {
   border: hidden;
-}
+} */
 
 .container-info {
   margin: 40px auto;
