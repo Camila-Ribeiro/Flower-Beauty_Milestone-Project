@@ -259,7 +259,7 @@ h5.card-title {
 }
 
 .team-pics h6 {
-  margin: 8px 10px;
+  margin-top: 8px;
   text-align: center;
 }
 
@@ -499,12 +499,13 @@ copyright {
   border-radius: 0;
 }
 
+.mobile-name {
+  display: none;
+}
+
 
 /*------------------------------------------------------------------------------------------------ @Media Queries */
-/* Tablet */
-@media only screen and (min-width:600px) and (max-width:960px) {
 
-}
 /* Max col-md (tablet) */
 @media screen and (max-width: 960px) {
 
@@ -599,6 +600,10 @@ copyright {
 
 
   /*about page*/
+  .mobile-name {
+    margin-top: 0 !important;
+    display: block;
+  }
   .team-pics p {
     text-align: center;
     margin: 15px 20px 70px 20px;
