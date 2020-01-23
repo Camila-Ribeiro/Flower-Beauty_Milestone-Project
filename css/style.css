@@ -265,7 +265,7 @@ h5.card-title {
 
 
 /*------------------------------------------------------------------------------------------------ Price List */
-.wrapper {
+/* .wrapper {
   width: 520px;
   height: 500px;
   border: 2px solid #e6b2b2;
@@ -286,7 +286,7 @@ h5.card-title {
 #price {
   overflow: hidden;
   text-align: left;
-}
+} */
 
 /* .nav-treatments ul {
   padding-left: 33%;
@@ -318,6 +318,7 @@ h5.card-title {
 
 .list-group-item {
   background-color: rgba(0,0,0,0);
+  font-size: 13px;
 }
 
 .alert {
@@ -430,7 +431,7 @@ footer {
   color: #fff;
   min-height: 40px;
   margin-top: 50px;
-  text-align: right;
+  text-align: center;
 }
 
 h6,
