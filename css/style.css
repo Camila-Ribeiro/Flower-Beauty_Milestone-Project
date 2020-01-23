@@ -3,14 +3,12 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  
 }
-
 body {
   font-family: "Arial", sans-serif;
   background-color: #ffffff;
+  color: #3e2724;
 }
-
 /*------------------------------------------------------------------------------------------------ Utility */
 .mb-30 {
   margin-bottom: 30px;
@@ -24,18 +22,15 @@ body {
 .ml-30 {
   margin-left: 30px;
 }
-
 /*------------------------------------------------------------------------------------------------ Special paddings/margins/text */
 .uppercase {
   text-transform: uppercase;
 }
-
 .general-sub {
   font-weight: 300;
   color: black;
   letter-spacing: 3px;
 }
-
 /*------------------------------------------------------------------------------------------------ Header */
 header {
   margin-bottom: 100px;
@@ -47,15 +42,12 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
-
 .navbar-brand img {
   height: 40px;
 }
-
 .content-home {
   margin: 100px 0;
 }
-
 /*------------------------------------------------------------------------------------------------ Button */
 .btn {
   display: inline-block;
@@ -77,31 +69,25 @@ nav {
   transition: color 0.15s;
   letter-spacing: 1px;
 }
-
 /*------------------------------------------------------------------------------------------------ Slides */
 .content-slider {
   margin-top: 60px;
 }
-
 .carousel {
   width: 100%;
   height: 500px;
   overflow: hidden;
 }
-
 .carousel-item {
   height: 500px;
 }
-
 .slide-1 {
   height: 500px;
   background-image: url(../images/facials.jpg);
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  
 }
-
 .slide-2 {
   height: 500px;
   background-image: url(../images/body-measure.jpg);
@@ -109,7 +95,6 @@ nav {
   background-position: 90% 30%;
   background-repeat: no-repeat;
 }
-
 .slide-3 {
   height: 500px;
   background-image: url(../images/nails-2.jpg);
@@ -118,7 +103,6 @@ nav {
   background-repeat: no-repeat;
   margin: 0 auto 0 auto;
 }
-
 .slide-4 {
   height: 500px;
   background-image: url(../images/lashes-1.jpg);
@@ -126,7 +110,6 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .slide-5 {
   height: 500px;
   background-image: url(../images/Depilacao.jpg);
@@ -134,34 +117,25 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .about-wrap {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 60px 0;
 }
-
 .title-padding {
   padding-bottom: 10px;
   text-transform: uppercase;
   text-align: center;
 }
-
 /*------------------------------------------------------------------------------------------------ Content-Home */
-
 .beauty-icons-wrap {
   margin: 100px 45px 0 45px;
 }
-
 .beauty-icons-wrap .card-group img {
   height: auto;
 }
-
 .beauty-icons-wrap .btn {
   display: block;
 }
-
-
-
 /*------------------------------------------------------------------------------------------------ Cards */
 h5.card-title {
   padding-top: 10px;
@@ -169,17 +143,12 @@ h5.card-title {
   font-weight: bold;
   color: #3e2723;
 }
-
-.card-deck-custom p.card-text {
-  color: #3e2723;
-}
-
 .card-deck-custom .card {
   border: none;
   background-color: #ffebee;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
 }
-
 .bg-facial {
   width: 100%;
   height: 300px;
@@ -189,7 +158,6 @@ h5.card-title {
   background-repeat: no-repeat;
   display: block;
 }
-
 .bg-body {
   width: 100%;
   height: 300px;
@@ -199,7 +167,6 @@ h5.card-title {
   background-repeat: no-repeat;
   display: block;
 }
-
 .bg-nails {
   width: 100%;
   height: 300px;
@@ -209,7 +176,6 @@ h5.card-title {
   background-repeat: no-repeat;
   display: block;
 }
-
 .bg-lashes {
   width: 100%;
   height: 300px;
@@ -219,7 +185,6 @@ h5.card-title {
   background-repeat: no-repeat;
   display: block;
 }
-
 .bg-waxing {
   width: 100%;
   height: 300px;
@@ -229,69 +194,32 @@ h5.card-title {
   background-repeat: no-repeat;
   display: block;
 }
-
 /*------------------------------------------------------------------------------------------------ About */
-
 /*to do split code below in another part**/
 .intro-section {
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
-
 .intro-section h1 {
   margin-bottom: 20px;
 }
-
 .team-section-color {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
 .team-text p{
   text-align: justify;
 }
-
 .team-pics {
   padding-top: 50px;
 }
-
 .team-pics img {
   width: 150px;
 }
-
 .team-pics h6 {
   margin-top: 8px;
   text-align: center;
 }
-
-
 /*------------------------------------------------------------------------------------------------ Price List */
-/* .wrapper {
-  width: 520px;
-  height: 500px;
-  border: 2px solid #e6b2b2;
-  overflow: hidden;
-  background-color: #f6eff5;
-}
-
-.facial-price {
-  height: 200px;
-  width: 200px;
-}
-#name-service {
-  width: 480px;
-  float: left;
-  text-align: center;
-}
-
-#price {
-  overflow: hidden;
-  text-align: left;
-} */
-
-/* .nav-treatments ul {
-  padding-left: 33%;
-} */
-
 .nav-treatments .nav-tabs .nav-link {
   border: 1px solid #e6b2b2;
   border-radius: .25rem;
@@ -303,95 +231,74 @@ h5.card-title {
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   color: #fff;
 }
-
 .nav-treatments .nav-tabs {
   border-bottom: none;
 }
-
 .nav-treatments a{
   color: #3e2724;
 }
-
 .nav-treatments .nav-link a{
   color: #f6eff5;
 }
-
 .list-group-item {
   background-color: rgba(0,0,0,0);
   font-size: 13px;
 }
-
 .alert {
   margin-bottom: 0;
-}
-
+} 
 .refill .alert {
   margin-top: 50px;
 }
-
-/* .container-services h1 {
-  margin: 10px 50px 20px 50px;
-} */
-
 .container-price-list {
   margin-bottom: 70px;
   margin-top: 70px;
 }
-
 .container-price-list span {
   float: right;
 } 
-
+.container-price-list .card {
+  border-radius: 0;
+  margin-bottom: 50px;
+}
 .hvr-float:active, .hvr-float:focus, .hvr-float:hover {
   background-color: #ffebee;
   border: 0;
 }
- 
-
 /*------------------------------------------------------------------------------------------------ Contact Us */
 .map{
   height: 300px;
 }
-
 .contact-form {
   margin: 60px auto 40px auto;
   display: block;
 }
-
 .contact-form .btn{
   width: 100%;
 }
-
 .contact-form h4{
   margin-bottom: 20px;
 }
-
 .container-info i.pink{
   font-size: 40px;
   margin-bottom: 20px;
   color: #e9bbbb;
 } 
-
 .container-info h5 {
   color: #e6b2b2;
 }
-
 .form-control {
   margin-bottom: 10px;
 }
-
 textarea.form-control {
   height: 230px;
 }
-
 .input input {
   background-color: #eaebed;
 }
-
 .input textarea {
   background-color: #eaebed;
 }
-
 /*------------------------------------------------------------------------------------------------ Social Links */
 .social-links {
   position: fixed;
@@ -399,7 +306,6 @@ textarea.form-control {
   top: 250px;
   z-index: 1;
 }
-
 .social-links a i {
   width: 32px;
   height: 32px;
@@ -415,16 +321,13 @@ textarea.form-control {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
-
 .social-links a i:hover {
   background: #8f8f8f;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .insta-link {
   padding-top: 12px;
 }
-
 /*------------------------------------------------------------------------------------------------ footer */
 footer {
   background-color: #ffcdd2;
@@ -433,17 +336,14 @@ footer {
   margin-top: 50px;
   text-align: center;
 }
-
 h6,
 copyright {
   padding: 10px;
   margin-bottom: 0;
 }
-
 .copyright {
   color: #3e2723;
 }
-
 /* ------------------------------------------------------------------------------------- overwrite hover.css  */
 .hvr-fade:active,
 .hvr-fade:focus,
@@ -451,7 +351,6 @@ copyright {
   background-color: #e6b2b2;
   color: #fff;
 }
-
 .overlay {
   margin: auto;
   position: absolute;
@@ -465,14 +364,12 @@ copyright {
   transition: all 0.5s ease;
   background-color: rgba(255, 255, 255, 0.95);
 }
-
 .hover-overlay {
   position: relative;
   margin: 0 auto;
   width: 150px;
   display: block;
 }
-
 .text-overlay {
   color: #3e2723;
   font-size: 20px;
@@ -484,18 +381,15 @@ copyright {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 /* Show the overlay on hover */
 .hover-overlay:hover .overlay {
   opacity: 1;
 }
-
 /* The container <div> - needed to position the dropdown content */
 .hover-services {
   position: relative;
   display: inline-block;
 }
-
 /* Links inside the dropdown */
 .dropdown-menu a {
   color: black;
@@ -503,26 +397,21 @@ copyright {
   text-decoration: none;
   display: block;
 }
-
 /* Change color of dropdown links on hover */
 .dropdown-menu a:hover {
   background-color: #ddd;
 }
-
 /* Show the dropdown menu on hover */
 .hover-services:hover .dropdown-menu {
   display: block;
 }
-
 /* ------------------------------------------------------------------------------------- overwrite Bootstrap  */
 .navbar-toggler {
   border: 2px solid #e6b2b2;
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: #3e2723;
 }
-
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
@@ -530,11 +419,9 @@ copyright {
   color: #ea6770;
   text-decoration: underline;
 }
-
 .navbar-nav {
   text-transform: uppercase;
 }
-
 .carousel-caption {
   position: absolute;
   bottom: 20px;
@@ -544,41 +431,32 @@ copyright {
   color: black;
   text-align: center;
 }
-
 .navbar-nav .dropdown-menu {
   background-color: #ffebee;
   border: none;
   border-radius: 0;
 }
-
 .mobile-name {
   display: none;
 }
-
-
 /*------------------------------------------------------------------------------------------------ @Media Queries */
-
 /* Max col-md (tablet) */
 @media screen and (max-width: 960px) {
-
   .social-links-mobile {
     background-color: #ffcdd2;
     margin: 0;
     position: absolute;
     right: 40px;
   }
-
   .container-social-mobile {
     height: 40px;
     background-color: #ffcdd2;
     position: relative;
     padding-top: 4px;
   }
-
   .intro-section {
     padding-top: 120px;
   }
-
   /** social media */
   .social-links-mobile a i {
     width: 32px;
@@ -595,63 +473,43 @@ copyright {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
   }
-  
   .social-links-mobile a i:hover {
     background: #8f8f8f;
   }
-
   .social-links-mobile {
     right: 5px;
   }
-  
-   
- 
 }
-
-
 /* Mobile */
 @media screen and (max-width: 576px) {
   /** slides*/
   .carousel, .carousel-item {
     height: 370px;
   }
-
   .slide-1 {
     height: 370px;
     background-position: bottom center;
   }
-  
   .slide-2 {
     height: 370px;
     background-position: 47% 50%;
   }
-  
   .slide-3 {
     height: 370px;
     background-position: 69%;
   }
-  
   .slide-4 {
     height: 370px;
     background-position: 50%;
   }
-  
   .slide-5 {
     height: 370px;
     background-position: 69%;
   }
-
   h5.general-sub {
     padding-top: 10px;
     padding-bottom: 3px;
   }
-
-  /* .card-deck .card {
-    margin-bottom: 50px;
-    left: 30px;
-  } */
-
-
   /*about page*/
   .mobile-name {
     margin-top: 0 !important;
@@ -661,24 +519,17 @@ copyright {
     text-align: center;
     margin: 15px 20px 70px 20px;
   }
-
-
-   /*price list*/
+  /*price list*/
    .nav-treatments ul {
     display: inline;
   }
-
   .nav-treatments .nav-tabs .nav-link {
     margin-bottom: 4px;
   }
-
-
-
   .container-price-list .card {
     margin-bottom: 50px;
     width: 100%;
   }
-
   .container-price-list .card-deck {
     margin-bottom: 0;
     
@@ -689,5 +540,4 @@ copyright {
     .opening-hours {
     margin-bottom: 3rem;
   }
-
 }
