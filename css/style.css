@@ -316,6 +316,10 @@ h5.card-title {
   color: #f6eff5;
 }
 
+.list-group-item {
+  background-color: rgba(0,0,0,0);
+}
+
 /* .container-services h1 {
   margin: 10px 50px 20px 50px;
 } */
@@ -659,12 +663,10 @@ copyright {
     margin-bottom: 4px;
   }
 
-  .list-group-item {
-    background-color: rgba(0,0,0,0);
-  }
+
 
   .container-price-list .card {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 100%;
   }
 
