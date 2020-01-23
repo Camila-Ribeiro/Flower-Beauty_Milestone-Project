@@ -288,13 +288,52 @@ h5.card-title {
   text-align: left;
 }
 
-.container-services h1 {
-  margin: 10px 50px 20px 50px;
+/* .nav-treatments ul {
+  padding-left: 33%;
+} */
+
+.nav-treatments .nav-tabs .nav-link {
+  border: 1px solid #e6b2b2;
+  border-radius: .25rem;
+  border-top-right-radius: .25rem;
+  background-color: #e6b2b2;
+  border-bottom: none;
+  margin-left: 1px;
 }
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #fff;
+}
+
+.nav-treatments .nav-tabs {
+  border-bottom: none;
+}
+
+.nav-treatments a{
+  color: #3e2724;
+}
+
+.nav-treatments .nav-link a{
+  color: #f6eff5;
+}
+
+/* .container-services h1 {
+  margin: 10px 50px 20px 50px;
+} */
 
 .container-price-list {
   margin-bottom: 70px;
+  margin-top: 70px;
 }
+
+.container-price-list span {
+  float: right;
+} 
+
+.hvr-float:active, .hvr-float:focus, .hvr-float:hover {
+  background-color: #ffebee;
+  border: 0;
+}
+ 
 
 /*------------------------------------------------------------------------------------------------ Contact Us */
 .map{
@@ -551,7 +590,8 @@ copyright {
   .social-links-mobile {
     right: 5px;
   }
-
+  
+   
  
 }
 
@@ -593,10 +633,10 @@ copyright {
     padding-bottom: 3px;
   }
 
-  .card-deck .card {
+  /* .card-deck .card {
     margin-bottom: 50px;
     left: 30px;
-  }
+  } */
 
 
   /*about page*/
@@ -609,10 +649,33 @@ copyright {
     margin: 15px 20px 70px 20px;
   }
 
+
+   /*price list*/
+   .nav-treatments ul {
+    display: inline;
+  }
+
+  .nav-treatments .nav-tabs .nav-link {
+    margin-bottom: 4px;
+  }
+
+  .list-group-item {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .container-price-list .card {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .container-price-list .card-deck {
+    margin-bottom: 0;
+    
+  }
   /*contact page*/
-  .get-in-touch,
-  .address,
-  .opening-hours {
+    .get-in-touch,
+    .address,
+    .opening-hours {
     margin-bottom: 3rem;
   }
 
