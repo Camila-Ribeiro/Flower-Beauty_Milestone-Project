@@ -66,4 +66,8 @@ The photos used in this site were obtained from google
 I received inspiration for this project from https://www.instagram.com/flowerbeautyandnails/
 
 ## License
+<<<<<<< HEAD
  © [Camila Ribeiro]()
+=======
+ © [Camila Ribeiro]()
+>>>>>>> 141bc639d37506ef8e3d3931118b40c0100c98f3
