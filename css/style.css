@@ -224,21 +224,22 @@ h5.card-title {
   border: 1px solid #e6b2b2;
   border-radius: .25rem;
   border-top-right-radius: .25rem;
-  background-color: #e6b2b2;
-  border-bottom: none;
+  background-color: #ffebee;
   margin-left: 1px;
 }
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+.nav-treatments .nav-tabs .nav-link:hover {
+  background-color: #e6b2b2;
   color: #fff;
 }
-.nav-treatments .nav-tabs {
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #e6b2b2 !important;
+}
+.nav-tabs {
   border-bottom: none;
 }
 .nav-treatments a{
   color: #3e2724;
-}
-.nav-treatments .nav-link a{
-  color: #f6eff5;
 }
 .list-group-item {
   background-color: rgba(0,0,0,0);
@@ -442,6 +443,10 @@ copyright {
 /*------------------------------------------------------------------------------------------------ @Media Queries */
 /* Max col-md (tablet) */
 @media screen and (max-width: 960px) {
+  .intro-section {
+    padding-top: 120px;
+  }
+  /** social media */
   .social-links-mobile {
     background-color: #ffcdd2;
     margin: 0;
@@ -454,10 +459,6 @@ copyright {
     position: relative;
     padding-top: 4px;
   }
-  .intro-section {
-    padding-top: 120px;
-  }
-  /** social media */
   .social-links-mobile a i {
     width: 32px;
     height: 32px;
@@ -478,6 +479,11 @@ copyright {
   }
   .social-links-mobile {
     right: 5px;
+  }
+  /*about page*/
+  .mobile-name {
+    margin-top: 0 !important;
+    display: block;
   }
 }
 /* Mobile */
@@ -511,10 +517,6 @@ copyright {
     padding-bottom: 3px;
   }
   /*about page*/
-  .mobile-name {
-    margin-top: 0 !important;
-    display: block;
-  }
   .team-pics p {
     text-align: center;
     margin: 15px 20px 70px 20px;
@@ -531,8 +533,7 @@ copyright {
     width: 100%;
   }
   .container-price-list .card-deck {
-    margin-bottom: 0;
-    
+    margin-bottom: 0; 
   }
   /*contact page*/
     .get-in-touch,
