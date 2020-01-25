@@ -48,6 +48,7 @@ This site was built using [GitHub Pages](https://camila-ribeiro.github.io/Flower
 - CSS framework - hover.css
 
 ## Testing
+[I'm a relative reference to a repository file](../flowerbeauty/Testing.md)
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -59,139 +60,13 @@ Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-#### Home Page:
-1. Go to the "Home" page
-2. Try to click on the "Previous/Next" arrows and verify if it is working backwords and forwards whitout any errors
-3. Try to click on the carousel indicators to verify if it is GOING? to the right slider
-4. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-5. Try to click on the "Read More" buttons on the services section to verify if it is opening in a new tab (which is the same page as Services-> Facial page)
-6. Try to click on the "Flower Beauty"logo to veryfy if it is opening the page from the top
-7. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-8. Try to click on "Services" from the Menu navigation to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
-9. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Facial" page 
-10. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Body" page
-11. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Nails" page
-12. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Lashes" page
-13. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Waxing" page
-14. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-15. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page.
 
-#### About:
-1. Go to the "About" page
-2. Try to hover over the team images to veryfy if it is showing the team member's name
-3. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-4. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-5. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-6. Try to click on "Services" from the Menu navigation to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
-7. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Facial" page 
-8. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Body" page
-9. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Nails" page
-10. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Lashes" page
-11. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Waxing" page
-12. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-13. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-
-##### Services:
-1. Go to the "Services" page
-2. Try to click on "Services" from the Menu to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
-7. Try to click on "Facial" from the dropdown Menu to veryfy if it is opening the "Facial" page 
-8. Try to click on "Body" from the dropdown  Menu to veryfy if it is opening the "Body" page
-9. Try to click on "Nails" from the dropdown  Menu to veryfy if it is opening the "Nails" page
-10. Try to click on "Lashes" from the dropdown  Menu to veryfy if it is opening the "Lashes" page
-11. Try to click on "Waxing" from the dropdown  Menu to veryfy if it is opening the "Waxing" page
-12. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-13. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-###### Facial:
-1. Go to the "Services" page
-2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-4. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-5. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-6. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-7. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-##### Body:
-1. Go to the "Body" page
-2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-4. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-5. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-6. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-7. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-##### Nails:
-1. Go to the "Nails" page
-2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-4. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-5. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-6. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-7. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-##### Lashes:
-1. Go to the "Lashes" page
-2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-4. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-5. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-6. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-7. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-##### Waxing:
-1. Go to the "Waxing" page
-2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
-3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-4. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-5. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-6. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-7. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-#### Price List:
-1. Go to the "Price List" page
-2. Try to click on "Facial" on the Tab navigation to veryfy if it is opening the "Facial" price list
-3. Try to click on "Body" on the Tab navigation to veryfy if it is opening the "Body" price list
-4. Try to click on "Nails" on the Tab navigation to veryfy if it is opening the "Nails" price list
-5. Try to click on "Lashes" on the Tab navigation to veryfy if it is opening the "Lashes" price list
-6. Try to click on "Waxing" on the Tab navigation to veryfy if it is opening the "Waxing" price list
-7. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-8. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-9. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-10. Try to click on "Services" from the Menu navigation to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
-11. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Facial" page 
-12. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Body" page
-13. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Nails" page
-14. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Lashes" page
-15. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Waxing" page
-16. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
-
-#### Contact:
-1. Go to the "Contact" page
-7. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
-8. Try to click on "Home" from the Menu navigation to veryfy if it is opening the "Home" page
-9. Try to click on "About" from the Menu navigation to veryfy if it is opening the "About" page
-10. Try to click on "Services" from the Menu navigation to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
-11. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Facial" page 
-12. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Body" page
-13. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Nails" page
-14. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Lashes" page
-15. Try to click on "Services" from the Menu navigation to veryfy if it is opening the "Waxing" page
-16. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
-16. Try to click on "Phone Number" link to veryfy if it is redirecting to WhatsApp chat
-
-##### Contact form:
-1. Go to the "Contact" page
-2. Try to submit the empty form and verify that an error message about the required fields appears
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
