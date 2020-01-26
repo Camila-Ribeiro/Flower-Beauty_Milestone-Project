@@ -123,7 +123,9 @@
  
 ##### Contact form:
 1. Go to the "Contact" page
-2. Try to submit the empty form and verify that an error message about the required fields appears
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. Try to submit the empty form and verify that an error message appears
+3. Try to submit the form with blank name and verify that a relevant error message appears
+4. Try to submit the form with blank e-mail address and verify that a relevant error message appears
+5. Try to submit the form with an invalid email address and verify that a relevant error message appears
+6. Try to submit the form with blank message and verify that a relevant error message appears
 
