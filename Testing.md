@@ -1,3 +1,5 @@
+## Testing
+
 #### Home Page:
 1. Go to the "Home" page
 2. Try to click on the "Previous/Next" arrows and verify if it is working backwords and forwards whitout any errors
@@ -31,7 +33,7 @@
 13. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
 
 
-##### Services:
+#### Services:
 1. Go to the "Services" page
 2. Try to click on "Services" from the Menu to veryfy if the dropdown menu is working on hover and as it hover over the services it changes the color
 3. Try to click on "Facial" from the dropdown Menu to veryfy if it is opening the "Facial" page 
@@ -42,7 +44,7 @@
 8. Try to click on "Price List" from the Menu navigation to veryfy if it is opening the "Price List" page
 9. Try to click on "Contact" from the Menu navigation to veryfy if it is opening the "Contact" page
 
-###### Facial:
+##### Facial:
 1. Go to the "Services" page
 2. Try to click on the Facebook and Instagram icons on the right hand side of the screen to verify if it is opening in a new tab
 3. Try to click on the "Flower Beauty"logo to veryfy if it is opening the "Home" page 
