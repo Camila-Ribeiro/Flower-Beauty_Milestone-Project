@@ -1,266 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Home Page</title>
-  </head>
-
-  <body>
-     <!-- Header--> 
-    <header class="fixed-top">
-      <!-- Social Links Responsive-->
-      <div class="container-social-mobile">
-      <ul class="list-inline social-links-mobile d-block d-lg-none">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Nav-->
-      <nav class="navbar navbar-light navbar-expand-sm">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logoNoback.png" />
-        </a>
-        <button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item active mr-2">
-                  <a class="nav-link" href="index.html">Home </a>
-                </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="about.html">About </a>
-              </li>
-            
-              <div class="hover-services">
-                  <li class="nav-item dropdown mr-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >Services</a>
-                  
-                    <div class="drop-hover dropdown-menu" aria-labelledby="navbarDropdownMenu">
-                      <a class="dropdown-item" href="facial.html">Facial</a>
-                      <a class="dropdown-item" href="body.html">Body</a>
-                      <a class="dropdown-item" href="nails.html">Nails</a>
-                      <a class="dropdown-item" href="lashes.html">Lashes</a>
-                      <a class="dropdown-item" href="waxing.html">Waxing</a>
-                    </div>
-                  </li>
-                </div>
-  
-            
-
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="pricelist.html">Price List</a>
-              </li>
-            
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!--Content-->
-    <!--Section Slider-->
-    <section class="content-slider">
-        <div id="carouselExampleCaptions" class="carousel slide d-sm" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-            </ol>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="slide-1 d-block w-100">
-                <div class="carousel-caption d-md-block">
-                  <h4>Facial Treatments</h4>
-                  <p>A range of tretaments tailored for you.</p>
-                </div>
-              </div>
-            </div>
-
-              <div class="carousel-item">
-                    <div class="slide-2 d-block w-100">
-                <div class="carousel-caption d-md-block">
-                  <h4>Body Treatments</h4>
-                  <p>"Take care of your body. It's the only place you have to live."</p>  
-                   <p><small>Jim Rohn</small></p>
-                </div>
-              </div>
-            </div> 
-
-              <div class="carousel-item">
-                <div class="slide-3 d-block w-100">
-                <div class="carousel-caption d-md-block">
-                  <h4>Nails</h4>
-                  <p>"Having fabulous nails is a choice."</p>  
-                </div>
-              </div>
-            </div>
-
-              <div class="carousel-item">
-                  <div class="slide-4 d-block w-100">
-                  <div class="carousel-caption d-md-block">
-                    <h4>Lashes</h4>
-                    <p>Lashes make everything better!</p>
-                  </div>
-                </div>
-              </div>
-
-                <div class="carousel-item">
-                    <div class="slide-5 d-block w-100">
-                    <div class="carousel-caption d-md-block">
-                      <h4>Waxing</h4>
-                      <p>Hair-free is...Care free!</p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-    </section>
-    <!--Section About-->
-    <section class="about-wrap">
-      <div class="container">
-      <div class="about-text">
-      <h2 class="title-padding">About</h2>
-      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum eros nec sodales aliquam. Integer mollis orci at faucibus suscipit. Nulla facilisi. Praesent suscipit lacus ante. Quisque tempor nisi in ornare fringilla. Nulla facilisi. Curabitur porttitor augue ultricies vestibulum accumsan. Nulla facilisi. Suspendisse fermentum scelerisque dui, eu tristique tellus dapibus nec. Nunc in pulvinar eros. Sed ac sapien mattis, sollicitudin eros sed, consequat arcu. Cras vitae suscipit velit. Fusce neque ex, suscipit id dapibus auctor, pharetra non risus.
-
-          Vestibulum scelerisque nisl ipsum, vitae bibendum odio ornare in. Sed vitae enim vel tortor semper finibus. Vivamus a augue mauris. Ut gravida maximus pellentesque. Nullam posuere, magna aliquet bibendum auctor, lectus metus laoreet odio, at molestie diam mi ut risus. Nullam et tincidunt leo. Sed sed ornare turpis, ut lacinia tortor. In id mollis massa, et finibus eros. Suspendisse erat justo, vestibulum vitae consectetur tincidunt, condimentum vel odio. Morbi a magna eget ante congue luctus.
-          
-         
-          Pellentesque auctor consectetur risus, at consectetur orci egestas ac. Curabitur commodo ante sed turpis semper viverra. Morbi mollis euismod ipsum nec convallis. Donec ut pharetra orci, sit amet rutrum diam. Praesent consequat, dolor ac vulputate iaculis, felis tortor dapibus diam, ut accumsan diam orci eu justo. Donec sit amet pulvinar diam, eu luctus enim. Suspendisse potenti.</p>
-        </div>
-      </div>
-    </section>
-    <!--Section Beauty Icons-->     
-    <section class="beauty-icons-wrap">
-    <div class="card-group">
-        <div class="card">
-          <img src="images/facial1-icon-edited.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Facials</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. 
-              Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p>
-            <a href="facial.html" target="_blank" class="btn btn-color hvr-fade">Read more</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/body-icon-edited.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Body</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor.
-               Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p>
-            <a href="body.html" target="_blank"  class="btn btn-color hvr-fade">Read more</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/nail-icon-edited.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nails</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor.
-               Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p>
-            <a href="nails.html" target="_blank"  class="btn btn-color hvr-fade">Read more</a>
-          </div>
-        </div>
-        <div class="card">
-            <img src="images/lashes-icon-edited.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lashes</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor.
-                 Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p>
-              <a href="lashes.html" target="_blank"  class="btn btn-color hvr-fade">Read more</a>
-            </div>
-          </div>
-          <div class="card">
-              <img src="images/waxing-icon-edited.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Waxing</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor.
-                   Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p>
-                <a href="waxing.html" target="_blank" class="btn btn-color hvr-fade">Read more</a>
-              </div>
-            </div>
-      </div>
-    </section><!-- /.beauty-icons-wrap -->
-
-    <!--Social Links Large Screen-->
-    <div class="social-links d-none d-lg-block">
-        <div class="facebook-link">
-          <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <span class="sr-only">Facebook</span>
-          </a>
-        </div>
-  
-        <div class="insta-link">
-          <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <span class="sr-only">Instagram</span>
-          </a>
-        </div>
-    </div><!-- /.social-links d-none d-lg-block -->
-
-    <!--Footer-->
-    <footer>
-      
-
-          <h6 class="copyright">©copyright</h6>
-         
-             
-         
-    </footer>
-
-    <!--JavaScript-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Home Page</title>
+</head>
+<body>
+	<!-- Header-->
+	<header class="fixed-top">
+		<!-- Social Links Responsive-->
+		<div class="container-social-mobile">
+			<ul class="list-inline social-links-mobile d-block d-lg-none">
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i> <span class="sr-only">Facebook</span></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+				</li>
+				<li style="list-style: none"></li>
+			</ul>
+    </div>
+    <!-- Nav-->
+		<nav class="navbar navbar-light navbar-expand-sm">
+			<a class="navbar-brand" href="index.html"><img src="images/logoNoback.png"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active mr-2">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li style="list-style: none; display: inline">
+						<div class="hover-services">
+							<ul>
+								<li class="nav-item dropdown mr-2">
+									<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Services</a>
+									<div aria-labelledby="navbarDropdownMenu" class="drop-hover dropdown-menu">
+										<a class="dropdown-item" href="facial.html">Facial</a> <a class="dropdown-item" href="body.html">Body</a> <a class="dropdown-item" href="nails.html">Nails</a> <a class="dropdown-item" href="lashes.html">Lashes</a> <a class="dropdown-item" href="waxing.html">Waxing</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="pricelist.html">Price List</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+  </header>
+  <!--Content-->
+	<!--Section Slider-->
+	<section class="content-slider">
+		<div class="carousel slide d-sm" data-ride="carousel" id="carouselExampleCaptions">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#carouselExampleCaptions"></li>
+				<li data-slide-to="1" data-target="#carouselExampleCaptions"></li>
+				<li data-slide-to="2" data-target="#carouselExampleCaptions"></li>
+				<li data-slide-to="3" data-target="#carouselExampleCaptions"></li>
+				<li data-slide-to="4" data-target="#carouselExampleCaptions"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="slide-1 d-block w-100">
+						<div class="carousel-caption d-md-block">
+							<h4>Facial Treatments</h4>
+							<p>A range of tretaments tailored for you.</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide-2 d-block w-100">
+						<div class="carousel-caption d-md-block">
+							<h4>Body Treatments</h4>
+							<p>"Take care of your body. It's the only place you have to live."</p>
+							<p><small>Jim Rohn</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide-3 d-block w-100">
+						<div class="carousel-caption d-md-block">
+							<h4>Nails</h4>
+							<p>"Having fabulous nails is a choice."</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide-4 d-block w-100">
+						<div class="carousel-caption d-md-block">
+							<h4>Lashes</h4>
+							<p>Lashes make everything better!</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide-5 d-block w-100">
+						<div class="carousel-caption d-md-block">
+							<h4>Waxing</h4>
+							<p>Hair-free is...Care free!</p>
+						</div>
+					</div>
+				</div>
+			</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleCaptions" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleCaptions" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+		</div>
+  </section>
+  <!--Section About-->
+	<section class="about-wrap">
+		<div class="container">
+			<div class="about-text">
+				<h2 class="title-padding">About</h2>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum eros nec sodales aliquam. Integer mollis orci at faucibus suscipit. Nulla facilisi. Praesent suscipit lacus ante. Quisque tempor nisi in ornare fringilla. Nulla facilisi. Curabitur porttitor augue ultricies vestibulum accumsan. Nulla facilisi. Suspendisse fermentum scelerisque dui, eu tristique tellus dapibus nec. Nunc in pulvinar eros. Sed ac sapien mattis, sollicitudin eros sed, consequat arcu. Cras vitae suscipit velit. Fusce neque ex, suscipit id dapibus auctor, pharetra non risus. Vestibulum scelerisque nisl ipsum, vitae bibendum odio ornare in. Sed vitae enim vel tortor semper finibus. Vivamus a augue mauris. Ut gravida maximus pellentesque. Nullam posuere, magna aliquet bibendum auctor, lectus metus laoreet odio, at molestie diam mi ut risus. Nullam et tincidunt leo. Sed sed ornare turpis, ut lacinia tortor. In id mollis massa, et finibus eros. Suspendisse erat justo, vestibulum vitae consectetur tincidunt, condimentum vel odio. Morbi a magna eget ante congue luctus. Pellentesque auctor consectetur risus, at consectetur orci egestas ac. Curabitur commodo ante sed turpis semper viverra. Morbi mollis euismod ipsum nec convallis. Donec ut pharetra orci, sit amet rutrum diam. Praesent consequat, dolor ac vulputate iaculis, felis tortor dapibus diam, ut accumsan diam orci eu justo. Donec sit amet pulvinar diam, eu luctus enim. Suspendisse potenti.</p>
+			</div>
+		</div>
+  </section>
+  <!--Section Beauty Icons-->
+	<section class="beauty-icons-wrap">
+		<div class="card-group">
+			<div class="card">
+				<img alt="..." class="card-img-top" src="images/facial1-icon-edited.jpg">
+				<div class="card-body">
+					<h5 class="card-title">Facials</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p><a class="btn btn-color hvr-fade" href="facial.html" target="_blank">Read more</a>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="..." class="card-img-top" src="images/body-icon-edited.jpeg">
+				<div class="card-body">
+					<h5 class="card-title">Body</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p><a class="btn btn-color hvr-fade" href="body.html" target="_blank">Read more</a>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="..." class="card-img-top" src="images/nail-icon-edited.jpg">
+				<div class="card-body">
+					<h5 class="card-title">Nails</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p><a class="btn btn-color hvr-fade" href="nails.html" target="_blank">Read more</a>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="..." class="card-img-top" src="images/lashes-icon-edited.jpeg">
+				<div class="card-body">
+					<h5 class="card-title">Lashes</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p><a class="btn btn-color hvr-fade" href="lashes.html" target="_blank">Read more</a>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="..." class="card-img-top" src="images/waxing-icon-edited.jpg">
+				<div class="card-body">
+					<h5 class="card-title">Waxing</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus eros eu tortor accumsan porttitor. Mauris dictum leo arcu, ut efficitur turpis pretium ac.</p><a class="btn btn-color hvr-fade" href="waxing.html" target="_blank">Read more</a>
+				</div>
+			</div>
+		</div>
+	</section><!-- /.beauty-icons-wrap -->
+	<!--Social Links Large Screen-->
+	<div class="social-links d-none d-lg-block">
+		<div class="facebook-link">
+			<a href="https://www.facebook.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i> <span class="sr-only">Facebook</span></a>
+		</div>
+		<div class="insta-link">
+			<a href="https://www.instagram.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i> <span class="sr-only">Instagram</span></a>
+		</div>
+	</div><!-- /.social-links d-none d-lg-block -->
+	<!--Footer-->
+	<footer>
+		<h6 class="copyright">©copyright</h6>
+  </footer>
+  <!--JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
+</body>
 </html>

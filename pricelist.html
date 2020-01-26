@@ -1,457 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <link
-      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Home Page</title>
-  </head>
-  <body>
-    <!-- Header--> 
-    <header class="fixed-top">
-        <!-- Social Links Responsive-->
-        <div class="container-social-mobile">
-        <ul class="list-inline social-links-mobile d-block d-lg-none">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-  
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span>
-            </li>
-          </ul>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Home Page</title>
+</head>
+<body>
+	<!-- Header-->
+	<header class="fixed-top">
+		<!-- Social Links Responsive-->
+		<div class="container-social-mobile">
+			<ul class="list-inline social-links-mobile d-block d-lg-none">
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i> <span class="sr-only">Facebook</span></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i> <span class="sr-only">Instagram</span></a>
+				</li>
+				<li style="list-style: none"></li>
+			</ul>
+    </div>
+    <!-- Nav-->
+		<nav class="navbar navbar-light navbar-expand-sm">
+			<a class="navbar-brand" href="index.html"><img src="images/logoNoback.png"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li style="list-style: none; display: inline">
+						<div class="hover-services">
+							<ul>
+								<li class="nav-item dropdown mr-2">
+									<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Services</a>
+									<div aria-labelledby="navbarDropdownMenu" class="drop-hover dropdown-menu">
+										<a class="dropdown-item" href="facial.html">Facial</a> <a class="dropdown-item" href="body.html">Body</a> <a class="dropdown-item" href="nails.html">Nails</a> <a class="dropdown-item" href="lashes.html">Lashes</a> <a class="dropdown-item" href="waxing.html">Waxing</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item active mr-2">
+						<a class="nav-link" href="pricelist.html">Price List</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+  </header>
+  <!-- Tab Treatments-->
+	<div class="intro-section">
+		<div class="container">
+			<div class="nav-treatments">
+				<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a aria-controls="facial" aria-selected="true" class="nav-link active" data-toggle="tab" href="#facial" id="facial-tab" role="tab">Facial</a>
+					</li>
+					<li class="nav-item">
+						<a aria-controls="body" aria-selected="false" class="nav-link" data-toggle="tab" href="#body" id="body-tab" role="tab">Body</a>
+					</li>
+					<li class="nav-item">
+						<a aria-controls="nails" aria-selected="false" class="nav-link" data-toggle="tab" href="#nails" id="nails-tab" role="tab">Nails</a>
+					</li>
+					<li class="nav-item">
+						<a aria-controls="lashes" aria-selected="false" class="nav-link" data-toggle="tab" href="#lashes" id="lashes-tab" role="tab">Lashes</a>
+					</li>
+					<li class="nav-item">
+						<a aria-controls="waxing" aria-selected="false" class="nav-link" data-toggle="tab" href="#waxing" id="waxing-tab" role="tab">Waxing</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="myTabContent">
+				<!-- Facial Treatments-->
+				<div aria-labelledby="facial-tab" class="tab-pane fade show active" id="facial" role="tabpanel">
+					<div class="container-price-list">
+						<h1 class="text-center">Facial Treatments</h1>
+						<div class="card-deck">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Deep Cleansing Facial</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">From <span>€53</span></li>
+										<li class="list-group-item">* Add microdermabrasion <span>€7</span></li>
+										<li class="list-group-item">* Add microdermabrasion +<br>
+										Led Light Therapy <span>€17</span></li>
+										<li class="list-group-item">* Add Anti-ageing treatment <span>€7</span></li>
+										<li class="list-group-item">* Add a Chemical peel <span>€12</span></li>
+									</ul>
+								</div><!-- /.card-body -->
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Microneedling</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">From <span>€53</span></li>
+										<li class="list-group-item">Microneedling plus Led light Therapy <span>€63</span></li>
+										<li class="list-group-item">Microneedling plus Dermaplaning <span>€75</span></li>
+										<li class="list-group-item">Microneedling plus Led light Therapy<br>
+										and radiofrequency <span>€120</span></li>
+									</ul>
+								</div><!-- /.card-body -->
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Skinboosters</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Filorga (anti-aging treatment)<span>€100</span></li>
+										<li class="list-group-item">* Add Microneedling <span>€50</span></li>
+										<li class="list-group-item">Skinbooster - mix of ingredients to treat<br>
+										Acne scar/ Hyperpigmentation/ Antiaging <span>€75</span></li>
+										<li class="list-group-item">Hair Loss <span>€50</span></li>
+									</ul>
+								</div><!-- /.card-body -->
+							</div><!-- /.card -->
+						</div><!-- /.card-deck -->
+						<div class="card-deck">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Other Facials</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Deep Hydration with LED Light Therapy <span>€42</span></li>
+										<li class="list-group-item">Chemical Peel <span>€42</span></li>
+										<li class="list-group-item">Peeling Rose de Mer (natural peel) <span>€70</span></li>
+										<li class="list-group-item">Radiofrequency skin tightening/Lift <span>€47</span></li>
+										<li class="list-group-item">Microdermabrasion with<br>
+										LED Light Therapy <span>€45</span></li>
+									</ul>
+								</div><!-- /.card-body -->
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Lips Filler</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">0,5ml – (Juvederm) <span>€150</span></li>
+										<li class="list-group-item">1ml – (Juvederm) <span>€200</span></li>
+										<li class="list-group-item">1ml – (Princess) <span>€150</span></li>
+									</ul>
+								</div><!-- /.card-body -->
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Dermal Filler</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1ml - Hialuronic Acid (Biovitalization) <span>€110</span></li>
+										<li class="list-group-item">Deal 3 sessions every 21 days <span>€250</span></li>
+										<li class="list-group-item">To Increase your treatment<br>
+										Microneedling + Biovitalization <span>€150</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card -->
+						</div><!-- /.card-deck -->
+					</div><!-- /.container-price-list -->
         </div>
-  
-        <!-- Nav-->
-        <nav class="navbar navbar-light navbar-expand-sm">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logoNoback.png" />
-          </a>
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item  mr-2">
-                    <a class="nav-link" href="index.html">Home </a>
-                  </li>
-                <li class="nav-item mr-2">
-                  <a class="nav-link" href="about.html">About </a>
-                </li>
-              
-                <div class="hover-services">
-                    <li class="nav-item dropdown mr-2">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >Services</a>
-                    
-                      <div class="drop-hover dropdown-menu" aria-labelledby="navbarDropdownMenu">
-                        <a class="dropdown-item" href="facial.html">Facial</a>
-                        <a class="dropdown-item" href="body.html">Body</a>
-                        <a class="dropdown-item" href="nails.html">Nails</a>
-                        <a class="dropdown-item" href="lashes.html">Lashes</a>
-                        <a class="dropdown-item" href="waxing.html">Waxing</a>
-                      </div>
-                    </li>
-                  </div>
-    
-              
-  
-                <li class="nav-item active mr-2">
-                  <a class="nav-link" href="pricelist.html">Price List</a>
-                </li>
-              
-                <li class="nav-item mr-2">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
-
-    <!-- Tab Treatments-->
-    <div class="intro-section">
-      <div class="container">
-        <div class="nav-treatments">
-          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="facial-tab" data-toggle="tab" href="#facial" role="tab" aria-controls="facial" aria-selected="true">Facial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="body-tab" data-toggle="tab" href="#body" role="tab" aria-controls="body" aria-selected="false">Body</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="nails-tab" data-toggle="tab" href="#nails" role="tab" aria-controls="nails" aria-selected="false">Nails</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="lashes-tab" data-toggle="tab" href="#lashes" role="tab" aria-controls="lashes" aria-selected="false">Lashes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="waxing-tab" data-toggle="tab" href="#waxing" role="tab" aria-controls="waxing" aria-selected="false">Waxing</a>
-              </li>
-          </ul>
+        <!-- Body Treatments-->
+				<div aria-labelledby="body-tab" class="tab-pane fade" id="body" role="tabpanel">
+					<div class="container-price-list">
+						<h1 class="text-center">Body Treatments</h1>
+						<div class="card-deck mb-30">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Cryolipolisis</h5>
+									<h5 class="card-title">(Fat Freezing) + Lipowave</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1 area <span>€120</span></li>
+										<li class="list-group-item">2 areas <span>€170</span></li>
+										<li class="list-group-item">3 areas <span>€220</span></li>
+										<li class="list-group-item">4 areas <span>€270</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Pos-Cryolipolisis</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Enzyme for fat burning<br>
+										or sagging skin <span>from €50</span></li>
+										<li class="list-group-item">Lipowave + Cavitation</li>
+										<li class="list-group-item">Lipowave + Radiofrequency</li>
+										<li class="list-group-item">Lipowave + Cellutec</li>
+										<li class="list-group-item">1 session (one area) <span>€50</span></li>
+										<li class="list-group-item">1 session (two areas) <span>€65</span></li>
+										<li class="list-group-item">5 sessions (one area) <span>€220</span></li>
+										<li class="list-group-item">5 sessions (two area) <span>€300</span></li>
+									</ul>
+								</div>
+								<div class="alert alert-secondary" role="alert">
+									<i class="fa fa-info-circle"></i> Starting one week after Cryolipolisis for a better result
+								</div>
+							</div><!-- /.card -->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Mesotherapy</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1 session <span>€65</span></li>
+										<li class="list-group-item">5 session <span>€200</span></li>
+										<li class="list-group-item">Combined with Radiofrequency<br>
+										1 session <span>€70</span></li>
+										<li class="list-group-item">Combined with Radiofrequency<br>
+										5 session <span>€320</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card -->
+						</div><!-- /.card-deck -->
+						<div class="card-deck mb-30">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Cellutec</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1 session<span>€40</span></li>
+										<li class="list-group-item">3 sessions<span>€115</span></li>
+										<li class="list-group-item">5 sessions<span>€180</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Radiofrequency / Cavitation</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1 session<span>€50</span></li>
+										<li class="list-group-item">3 sessions<span>€130</span></li>
+										<li class="list-group-item">5 sessions<span>€220</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Enzymes <small>every 15 days</small></h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">1 session <span>€50</span></li>
+										<li class="list-group-item">2 sessions <span>€90</span></li>
+									</ul>
+								</div>
+							</div>
+						</div><!-- /.card-deck -->
+						<!-- </div> -->
+					</div><!-- /.container -->
         </div>
-        <div class="tab-content" id="myTabContent">
-
-          <!-- Facial Treatments-->
-          <div class="tab-pane fade show active" id="facial" role="tabpanel" aria-labelledby="facial-tab">
-            <div class="container-price-list">
-              <h1 class="text-center">Facial Treatments</h1>
-              <div class="card-deck">
-                <div class="card hvr-float"> 
-                  <div class="card-body">
-                    <h5 class="card-title">Deep Cleansing Facial</h5>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">From <span>€53</span></li>
-                      <li class="list-group-item">* Add microdermabrasion <span>€7</span></li>
-                      <li class="list-group-item">* Add microdermabrasion + <br> Led Light Therapy <span>€17</span></li>
-                      <li class="list-group-item">* Add Anti-ageing treatment <span>€7</span></li>
-                      <li class="list-group-item">* Add a Chemical peel <span>€12</span></li>
-                    </ul>
-                  </div><!-- /.card-body -->
-                </div><!-- /.card -->
-                <div class="card hvr-float">  
-                  <div class="card-body">
-                      <h5 class="card-title">Microneedling</h5>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">From <span>€53</span></li>
-                        <li class="list-group-item">Microneedling plus Led light Therapy <span>€63</span></li>
-                        <li class="list-group-item">Microneedling plus Dermaplaning <span>€75</span></li>
-                        <li class="list-group-item">Microneedling plus Led light Therapy <br> and radiofrequency <span>€120</span></li>
-                      </ul>
-                  </div><!-- /.card-body -->
-                </div><!-- /.card -->
-                <div class="card hvr-float">
-                  <div class="card-body">
-                      <h5 class="card-title">Skinboosters</h5>
-                      <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Filorga (anti-aging treatment)<span>€100</span>
-                      <li class="list-group-item">* Add Microneedling <span>€50</span></li>
-                      <li class="list-group-item">Skinbooster - mix of ingredients to treat <br> Acne scar/ Hyperpigmentation/ Antiaging <span>€75</span></li>
-                      <li class="list-group-item">Hair Loss <span>€50</span></li>   
-                    </ul>
-                  </div><!-- /.card-body -->
-                </div><!-- /.card -->
-              </div> <!-- /.card-deck -->
-              <div class="card-deck">
-                <div class="card hvr-float">
-                    <div class="card-body">
-                      <h5 class="card-title">Other Facials</h5>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Deep Hydration with LED Light Therapy <span>€42</span></li>
-                        <li class="list-group-item">Chemical Peel <span>€42</span></li>
-                        <li class="list-group-item">Peeling Rose de Mer (natural peel) <span>€70</span></li>
-                        <li class="list-group-item">Radiofrequency skin tightening/Lift <span>€47</span></li>
-                        <li class="list-group-item">Microdermabrasion with <br> LED Light Therapy <span>€45</span></li>
-                      </ul>
-                    </div><!-- /.card-body -->
-                </div><!-- /.card -->
-                <div class="card hvr-float">
-                  <div class="card-body">
-                    <h5 class="card-title">Lips Filler</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">0,5ml – (Juvederm) <span>€150</span></li>
-                        <li class="list-group-item">1ml – (Juvederm) <span>€200</span></li>
-                        <li class="list-group-item">1ml – (Princess) <span>€150</span></li>   
-                    </ul>
-                  </div><!-- /.card-body -->
-                </div><!-- /.card -->
-                <div class="card hvr-float">
-                  <div class="card-body">
-                    <h5 class="card-title">Dermal Filler</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">1ml - Hialuronic Acid (Biovitalization) <span>€110</span></li>
-                        <li class="list-group-item">Deal 3 sessions every 21 days <span>€250</span></li>
-                        <li class="list-group-item">To Increase your treatment <br> Microneedling + Biovitalization <span>€150</span></li>   
-                    </ul>
-                  </div>
-                </div><!-- /.card -->
-              </div><!-- /.card-deck -->
-            </div><!-- /.container-price-list -->
-          </div>
-          
-          <!-- Body Treatments-->
-          <div class="tab-pane fade" id="body" role="tabpanel" aria-labelledby="body-tab">
-            <div class="container-price-list">
-                <h1 class="text-center">Body Treatments</h1>
-                <!-- <div class="container-price-list"> -->
-                  <div class="card-deck mb-30">
-                    <div class="card hvr-float"> 
-                      <div class="card-body">
-                        <h5 class="card-title">Cryolipolisis</h5>
-                        <h5 class="card-title">(Fat Freezing) + Lipowave</h5>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">1 area <span>€120</span></li>
-                          <li class="list-group-item">2 areas <span>€170</span></li>
-                          <li class="list-group-item">3 areas <span>€220</span></li>
-                          <li class="list-group-item">4 areas <span>€270</span></li>
-                        </ul>
-                      </div>
-                    </div> <!-- /.card -->
-          
-                    <div class="card hvr-float">  
-                      <div class="card-body">
-                        <h5 class="card-title">Pos-Cryolipolisis</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Enzyme for fat burning <br> or sagging skin  <span>from €50</span></li>
-                          <li class="list-group-item">Lipowave + Cavitation</li>
-                          <li class="list-group-item">Lipowave + Radiofrequency</li>
-                          <li class="list-group-item">Lipowave + Cellutec</li>
-                          <li class="list-group-item">1 session (one area) <span>€50</span></li>
-                          <li class="list-group-item">1 session (two areas) <span>€65</span></li>
-                          <li class="list-group-item">5 sessions (one area) <span>€220</span></li>
-                          <li class="list-group-item">5 sessions (two area) <span>€300</span></li>
-                        </ul>
-                      </div>
-                      <div class="alert alert-secondary" role="alert"><i class="fa fa-info-circle"></i>
-                        Starting one week after Cryolipolisis for a better result
-                      </div>
-                    </div> <!-- /.card -->
-              
-                    <div class="card hvr-float">
-                      <div class="card-body">
-                        <h5 class="card-title">Mesotherapy</h5>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">1 session <span>€65</span></li>
-                          <li class="list-group-item">5 session <span>€200</span></li>
-                          <li class="list-group-item">Combined with Radiofrequency <br> 1 session <span>€70</span></li>
-                              <li class="list-group-item">Combined with Radiofrequency <br> 5 session <span>€320</span></li> 
-                        </ul>
-                    </div>
-                    </div> <!-- /.card -->
-                  </div> <!-- /.card-deck -->
-                  
-                  <div class="card-deck mb-30">
-                    <div class="card hvr-float">
-                      <div class="card-body">
-                        <h5 class="card-title">Cellutec</h5>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">1 session<span>€40</span>
-                          <li class="list-group-item">3 sessions<span>€115</span></li>
-                          <li class="list-group-item">5 sessions<span>€180</span></li>   
-                        </ul>
-                      </div>
-                    </div>
-            
-                    <div class="card hvr-float">
-                      <div class="card-body">
-                        <h5 class="card-title">Radiofrequency / Cavitation</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1 session<span>€50</span></li>
-                            <li class="list-group-item">3 sessions<span>€130</span></li>
-                            <li class="list-group-item">5 sessions<span>€220</span></li>   
-                        </ul>
-                      </div>
-                    </div>
-            
-                    <div class="card hvr-float">
-                        <div class="card-body">
-                          <h5 class="card-title">Enzymes <small>every 15 days</small></h5>
-                          <ul class="list-group list-group-flush">
-                              <li class="list-group-item">1 session <span> €50</span></li>
-                              <li class="list-group-item">2 sessions <span>€90</span></li>   
-                          </ul>
-                        </div>
-                    </div>
-                  </div> <!-- /.card-deck -->
-          <!-- </div> -->
-            </div> <!-- /.container -->
-          </div>
-
-          <!-- Nails-->
-          <div class="tab-pane fade" id="nails" role="tabpanel" aria-labelledby="nails-tab">
-            <div class="container-price-list">
-                <h1 class="text-center">Nails</h1>
-              
-              <div class="card-deck mb-30">
-              <div class="card hvr-float"> 
-                <div class="card-body">
-                  <h5 class="card-title d-none d-md-block">Nails</h5>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><strong>The gel polish</strong> <br> <small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure or pedicure €26 or both €46</span></li>
-                  <li class="list-group-item"><strong>The simple polish</strong> <br> <small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure €18 - pedicure €20 or both €32</span></li>
-                  <li class="list-group-item"><strong>The mix gel and simple</strong> <br> <small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure gel -
-                    pedicure simple €40</span></li>
-                  <li class="list-group-item"><strong>Luxury manicure</strong> <br> <small>(Nail shape, buff, exfoliation, mask, paraffin, detailed cuticle work and gel polish)</small> <span>€35</span></li>
-                  <li class="list-group-item"><strong>Spa pedicure</strong> <br> <small>(Warm bath with massage, exfoliation, hard skin removal, detailed cuticle work and gel polish)</small> <span>€38</span></li>
-                </ul>
-              </div>
-            </div>
-
-              <div class="card hvr-float">  
-                <div class="card-body">
-                    <h5 class="card-title">Nails Extension</h5>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><strong>Acrygel/ Gel Extension</strong> <br> <small>(Detailed cuticle work, the extension and gel polish)</small> <span>Full set €50</span></li>
-                    <li class="list-group-item">* <strong>Refill Gel or Acrygel</strong> <br> <small>(please let us know if you have any broken nail before book your app)</small> <span>From €40</span></li>
-                    <li class="list-group-item">* French manicure <span>Add €3</span></li>
-                    <li class="list-group-item">* Nail art <span>From €2</span></li>
-                    <li class="list-group-item">Extension removal <span>€15</span></li>
-                    <li class="list-group-item">Extension removal with detailed cuticle work and gel polish <span>€38</span></li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-            </div> <!-- /.container-->
-          </div>
-         
-          <!-- Eyebrows/Eyelashes-->
-          <div class="tab-pane fade" id="lashes" role="tabpanel" aria-labelledby="lashes-tab"> 
-            <div class="container-price-list">
-                <h1 class="text-center">Eyelashes / Eyebrows</h1>
-                <div class="card-deck mb-30"> 
-                <div class="card hvr-float">  
-                  <div class="card-body">
-                      <h5 class="card-title">Eyelashes</h5>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Classic Lash Extension <span>€45</li>
-                      <li class="list-group-item">Full set Hybrid <span>€50</span></li>
-                      <li class="list-group-item">Full set Volume 2D/3D <span>€50</span></li>
-                      <li class="list-group-item">Russian Volume <span>€60</span></li>
-                      <li class="list-group-item">Lash lift and tint <span>€40</span></li>
-                      <li class="list-group-item">Eyelashes Tint <span>€15</li>
-                    </ul>
-                  </div> 
-                </div> <!-- /.card-->
-                <div class="card refill hvr-float">  
-                    <div class="card-body">
-                        <h5 class="card-title">Refill</h5>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Refill Classic <span>€35</span></li>
-                      <li class="list-group-item">Refill Hybrid <span>€40</span></li>
-                      <li class="list-group-item">Refill Volume 2D/3D <span>€40</span></li>
-                      <li class="list-group-item">Refill Russian Volume <span>€50</span></li>
-                    </ul>
-                  </div>
-                    <div class="alert alert-secondary" role="alert"><i class="fa fa-info-circle"></i>
-                      Every 3 weeks (21 days)
-                    </div>
-                    
-                </div> <!-- /.card-->
-
-                <div class="card hvr-float">  
-                    <div class="card-body">
-                        <h5 class="card-title">Eyebrows</h5>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Eyebrows Shape <span>€15</li>
-                      <li class="list-group-item">Eyebrows Shape + Tint <span>€19</span></li>
-                      <li class="list-group-item">Eyebrows Shape + upper lip wax <span>€17</span></li>
-                      <li class="list-group-item">Eyebrows Shape + upper lip + chin wax <span>€19</span></li>
-                    </ul>
-                    </div>
-                </div> <!-- /.card-->
-              </div> <!-- /.card-deck-->  
-            </div> <!-- /.container--> 
-          </div>
-
-          <!-- Waxing-->
-          <div class="tab-pane fade" id="waxing" role="tabpanel" aria-labelledby="waxing-tab">
-              <div class="container-price-list">
-                <h1 class="text-center">Waxing</h1>
-              
-                <div class="card-deck mb-30">
-                <div class="card hvr-float"> 
-                  <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Brazilian or Hollywood <span>€26</span></li>
-                    <li class="list-group-item">Bikini Line <span>€7</span></li>
-                    <li class="list-group-item">Abdomen <span>€5</span></li>
-                    <li class="list-group-item">Abdomen line <span>€2</span></li>
-                    <li class="list-group-item">Butt <span>€5</span></li>
-                    <li class="list-group-item">Full Leg <span>€26</span></li>
-                    <li class="list-group-item">Half Leg (lower) <span>€12</span></li>
-                    <li class="list-group-item">Half Leg (upper) <span>€14</span></li>
-                  </ul>
-                </div>
-                </div> <!-- /.card-->
-
-          <div class="card hvr-float"> 
-              <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Underarm <span>€8</span></li>
-                    <li class="list-group-item">Lip/Chin <span>€5</span></li>
-                    <li class="list-group-item">Arm <span>€20</span></li>
-                    <li class="list-group-item">Side face <span>€10</span></li>
-                    <li class="list-group-item">Full face (include eyebrows) <span>€30</span></li>
-                    <li class="list-group-item">Waxing Back (male) <span>€26</span></li>
-                    <li class="list-group-item">Waxing Chest (male) <span>€26</span></li>
-                    <li class="list-group-item">Lip/Chin <span>€5</span></li>
-                  </ul>
-                </div>
-                </div> <!-- /.card-->
-                
-                  <div class="card hvr-float"> 
-                    <div class="card-body">
-                      <h5 class="card-title">Deals</h5>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Hollywood + ½ Leg (lower) + <br> Underarm +  Upperlip <span>€45</span></li>
-                      <li class="list-group-item">Hollywood + full leg <span>€50</span></li>
-                      <li class="list-group-item">Hollywood + full leg + <br> underarm + upper lip <span>€58</span></li>
-                    </ul>
-                  </div>
-                </div>
-                  </div>
-          
-            </div>
-          </div>
-        </div><!-- /.tab-content -->
-      </div> <!-- /.container-->
-    </div> <!-- /.INTRO-SECTION-->
-
-     <!--Social Links Large Screen-->
-     <div class="social-links d-none d-lg-block">
-        <div class="facebook-link">
-          <a target="_blank" href="https://www.facebook.com/flowerbeautyandnails/">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <span class="sr-only">Facebook</span>
-          </a>
+        <!-- Nails-->
+				<div aria-labelledby="nails-tab" class="tab-pane fade" id="nails" role="tabpanel">
+					<div class="container-price-list">
+						<h1 class="text-center">Nails</h1>
+						<div class="card-deck mb-30">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title d-none d-md-block">Nails</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item"><strong>The gel polish</strong><br>
+										<small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure or pedicure €26 or both €46</span></li>
+										<li class="list-group-item"><strong>The simple polish</strong><br>
+										<small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure €18 - pedicure €20 or both €32</span></li>
+										<li class="list-group-item"><strong>The mix gel and simple</strong><br>
+										<small>(Nail shape, buff, detailed cuticle work)</small> <span>manicure gel - pedicure simple €40</span></li>
+										<li class="list-group-item"><strong>Luxury manicure</strong><br>
+										<small>(Nail shape, buff, exfoliation, mask, paraffin, detailed cuticle work and gel polish)</small> <span>€35</span></li>
+										<li class="list-group-item"><strong>Spa pedicure</strong><br>
+										<small>(Warm bath with massage, exfoliation, hard skin removal, detailed cuticle work and gel polish)</small> <span>€38</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Nails Extension</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item"><strong>Acrygel/ Gel Extension</strong><br>
+										<small>(Detailed cuticle work, the extension and gel polish)</small> <span>Full set €50</span></li>
+										<li class="list-group-item">* <strong>Refill Gel or Acrygel</strong><br>
+										<small>(please let us know if you have any broken nail before book your app)</small> <span>From €40</span></li>
+										<li class="list-group-item">* French manicure <span>Add €3</span></li>
+										<li class="list-group-item">* Nail art <span>From €2</span></li>
+										<li class="list-group-item">Extension removal <span>€15</span></li>
+										<li class="list-group-item">Extension removal with detailed cuticle work and gel polish <span>€38</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.container-->
         </div>
-  
-        <div class="insta-link">
-          <a target="_blank" href="https://www.instagram.com/flowerbeautyandnails/" >
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <span class="sr-only">Instagram</span>
-          </a>
+        <!-- Eyebrows/Eyelashes-->
+				<div aria-labelledby="lashes-tab" class="tab-pane fade" id="lashes" role="tabpanel">
+					<div class="container-price-list">
+						<h1 class="text-center">Eyelashes / Eyebrows</h1>
+						<div class="card-deck mb-30">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Eyelashes</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Classic Lash Extension <span>€45</span></li>
+										<li class="list-group-item">Full set Hybrid <span>€50</span></li>
+										<li class="list-group-item">Full set Volume 2D/3D <span>€50</span></li>
+										<li class="list-group-item">Russian Volume <span>€60</span></li>
+										<li class="list-group-item">Lash lift and tint <span>€40</span></li>
+										<li class="list-group-item">Eyelashes Tint <span>€15</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card-->
+							<div class="card refill hvr-float">
+								<span></span>
+								<div class="card-body">
+									<span></span>
+									<h5 class="card-title">Refill</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Refill Classic <span>€35</span></li>
+										<li class="list-group-item">Refill Hybrid <span>€40</span></li>
+										<li class="list-group-item">Refill Volume 2D/3D <span>€40</span></li>
+										<li class="list-group-item">Refill Russian Volume <span>€50</span></li>
+									</ul>
+								</div>
+								<div class="alert alert-secondary" role="alert">
+									<i class="fa fa-info-circle"></i> Every 3 weeks (21 days)
+								</div>
+							</div><!-- /.card-->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Eyebrows</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Eyebrows Shape <span>€15</span></li>
+										<li class="list-group-item">Eyebrows Shape + Tint <span>€19</span></li>
+										<li class="list-group-item">Eyebrows Shape + upper lip wax <span>€17</span></li>
+										<li class="list-group-item">Eyebrows Shape + upper lip + chin wax <span>€19</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card-->
+						</div><!-- /.card-deck-->
+					</div><!-- /.container-->
         </div>
-    </div><!-- /.social-links d-none d-lg-block -->
-    
-    <!--Footer-->
-    <footer>
-      <h6 class="copyright">©copyright</h6>
-    </footer>
-    <!--JavaScript-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+        <!-- Waxing-->
+				<div aria-labelledby="waxing-tab" class="tab-pane fade" id="waxing" role="tabpanel">
+					<div class="container-price-list">
+						<h1 class="text-center">Waxing</h1>
+						<div class="card-deck mb-30">
+							<div class="card hvr-float">
+								<div class="card-body">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Brazilian or Hollywood <span>€26</span></li>
+										<li class="list-group-item">Bikini Line <span>€7</span></li>
+										<li class="list-group-item">Abdomen <span>€5</span></li>
+										<li class="list-group-item">Abdomen line <span>€2</span></li>
+										<li class="list-group-item">Butt <span>€5</span></li>
+										<li class="list-group-item">Full Leg <span>€26</span></li>
+										<li class="list-group-item">Half Leg (lower) <span>€12</span></li>
+										<li class="list-group-item">Half Leg (upper) <span>€14</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card-->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Underarm <span>€8</span></li>
+										<li class="list-group-item">Lip/Chin <span>€5</span></li>
+										<li class="list-group-item">Arm <span>€20</span></li>
+										<li class="list-group-item">Side face <span>€10</span></li>
+										<li class="list-group-item">Full face (include eyebrows) <span>€30</span></li>
+										<li class="list-group-item">Waxing Back (male) <span>€26</span></li>
+										<li class="list-group-item">Waxing Chest (male) <span>€26</span></li>
+										<li class="list-group-item">Lip/Chin <span>€5</span></li>
+									</ul>
+								</div>
+							</div><!-- /.card-->
+							<div class="card hvr-float">
+								<div class="card-body">
+									<h5 class="card-title">Deals</h5>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Hollywood + ½ Leg (lower) +<br>
+										Underarm + Upperlip <span>€45</span></li>
+										<li class="list-group-item">Hollywood + full leg <span>€50</span></li>
+										<li class="list-group-item">Hollywood + full leg +<br>
+										underarm + upper lip <span>€58</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.tab-content -->
+		</div><!-- /.container-->
+	</div><!-- /.INTRO-SECTION-->
+	<!--Social Links Large Screen-->
+	<div class="social-links d-none d-lg-block">
+		<div class="facebook-link">
+			<a href="https://www.facebook.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i> <span class="sr-only">Facebook</span></a>
+		</div>
+		<div class="insta-link">
+			<a href="https://www.instagram.com/flowerbeautyandnails/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i> <span class="sr-only">Instagram</span></a>
+		</div>
+	</div><!-- /.social-links d-none d-lg-block -->
+	<!--Footer-->
+	<footer>
+		<h6 class="copyright">©copyright</h6>
+  </footer>
+  <!--JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
+</body>
 </html>
