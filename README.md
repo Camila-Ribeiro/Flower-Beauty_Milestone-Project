@@ -25,18 +25,17 @@ This site was built using [GitHub Pages](https://camila-ribeiro.github.io/Flower
  
 ## Features
 ### Existing Features
-- Feature 1 - home page - cards(Facials, Body, Nails, Lashes, Waxing) -allow users to click on "read more"and have more information about each treatment offered. Another way to do this is through menu "Services".
+- Feature 1 - home page - cards (Facials, Body, Nails, Lashes, Waxing) -allow users to click on "read more" and have more information about each treatment offered. Another way to do this is through navigation menu on "Services".
 - Feature 2 - price list page - treatments are displayed in tabs for an easier search of prices throughout the services offered. Each card has a hover effect to keep the price list more fun.
-- Feature 3 - Facebook and Instagram icons - for small devices such as mobile and tablet it is displayed appear at the top of the page on the right hand side. For larger screens such as iPad Pro and large screens it is displayed on the right hand side on a fixed position.
+- Feature 3 - Facebook and Instagram icons - for small devices such as mobile and tablets it is displayed to appear at the top of the page on the right hand side. For larger screens such as iPad Pro and desktop it is displayed on the right hand side on a fixed position.
 - Feature 4 - contact page - The map is clickable and it redirect the user to google maps.
-- Feature 5 - contact page - At the bottom of the page there in Get in touch section there is a link to WhatsApp business number.
-- Feature 6
-- Feature 7
+- Feature 5 - contact page - At the bottom of the page there is a Get in touch section which there is a link to WhatsApp business chat.
+
  
  
 ### Features Left to Implement
-- Price List cards and Services cards will have Next and previous buttons to keep the page as clean as possible and less cluttered.
-- The team pictures (About Page) will be clickable and the text will pop-up from it.
+- Next and previous buttons -  Price List cards and Services cards will have Next and previous buttons to keep the page as clean as possible and less cluttered.
+- Hidden text description - The team images (About Page) will be clickable and the text description of each member will show up below the images.
  
  
 ## Technologies used
@@ -54,11 +53,11 @@ This site was built using [GitHub Pages](https://camila-ribeiro.github.io/Flower
  
 ## Testing
  
-The website was tested many times and I conducted a user text with two users. A few bugs were found during this process like clicking on the button "Read More" wasn't opening the right page or was 404 error or pages weren't opening in a new tab which now is all fixed.
+The website was tested many times and I conducted a user test with two users. A few bugs were found during this process like clicking on the button "Read More" wasn't opening the right page, was 404 error or pages weren't opening in a new tab which now is all fixed.
  
 [Testing file](../blob/master/Testing.md)
  
-The website version for mobile and ipad works very similar to the desktop and Ipad pro version except for the social media icons that on desktop is placed on the right hand side on a fixed position and on mobile and Ipad it is placed at the top of the Navigation Menu. Also the deck cards across the desktop and Ipad pro version is placed in set of 2 or 3 cards in a row and for mobile and ipad is placed one in each row.
+The website version for mobile and ipad works very similar to the desktop and Ipad pro version except for the social media icons that on desktop is placed on the right hand side on a fixed position and on mobile and Ipad it is placed at the top of the Navigation Menu. Also the deck cards across the desktop and Ipad pro are placed on set of 2 or 3 cards in a row and for mobile and ipad it is stacked.
  
  
 ## Deployment
